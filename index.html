@@ -230,6 +230,17 @@ function cardHTML(x){
   var tags=(x.tags||[]).map(function(t){return '<i>#'+esc(t)+'</i>';}).join('');
   var citUrl = x.citation_url || x.url;
   var priceUrl = x.price_url || x.url;
+  var webUrl = x.url || priceUrl;
+  // marketplace search fallbacks
+  var shopeeUrl = priceUrl.indexOf('shopee.co.id')!==-1 ? priceUrl : 'https://shopee.co.id/search?keyword='+encodeURIComponent(x.title.split(' — ')[0].split(' - ')[0]+' soaker pad');
+  var tokpedUrl = webUrl.indexOf('tokopedia.com')!==-1 ? webUrl : 'https://www.tokopedia.com/search?st=product&q='+encodeURIComponent(x.title.split(' — ')[0].split(' - ')[0]+' soaker pad');
+  var alibabaUrl = priceUrl.indexOf('alibaba.com')!==-1 ? priceUrl : 'https://www.alibaba.com/showroom/'+encodeURIComponent(x.title.split(' — ')[0].toLowerCase().replace(/\s+/g,'-')+'-pad')+'.html';
+  var marketplaceBtns='';
+  if(isG){
+    marketplaceBtns='<a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank" rel="noopener">🛒 Shopee</a><a class="btn ghost" href="'+esc(alibabaUrl)+'" target="_blank" rel="noopener">🏭 Alibaba</a>';
+  } else {
+    marketplaceBtns='<a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank" rel="noopener">🛒 Shopee</a><a class="btn ghost" href="'+esc(tokpedUrl)+'" target="_blank" rel="noopener">🟢 Tokopedia</a>';
+  }
   return '<div class="card '+(isG?'leaderG':'leaderI')+'">'
     +'<div class="top"><span class="pill '+pillCls+'">'+pillLabel+'</span><span class="share"><b class="'+shareCls+'">'+esc(x.share||'—')+'</b></span></div>'
     +'<h3>'+esc(x.title)+'</h3>'
@@ -244,12 +255,16 @@ function cardHTML(x){
     +'<div class="desc">'+esc(x.desc)+'</div>'
     +'<div class="tags">'+tags+'</div>'
     +'<div class="cite">Sumber: <a href="'+esc(citUrl)+'" target="_blank" rel="noopener">'+esc(x.citation||x.source||'—')+'</a></div>'
-    +'<div class="actions"><a class="btn '+(isG?'primary':'blue')+'" href="'+esc(priceUrl)+'" target="_blank" rel="noopener">💰 Cek Harga</a><a class="btn ghost" href="'+esc(x.url)+'" target="_blank">Produk</a></div>'
+    +'<div class="actions"><a class="btn '+(isG?'primary':'blue')+'" href="'+esc(webUrl)+'" target="_blank" rel="noopener">🏭 Web Industri</a>'+marketplaceBtns+'</div>'
+    +'<div class="actions" style="padding-top:0"><a class="btn ghost" href="'+esc(priceUrl)+'" target="_blank" rel="noopener">💰 Cek Harga Langsung</a></div>'
     +'</div>';
 }
 function restCard(x){
   var citUrl = x.citation_url || x.url;
   var priceUrl = x.price_url || x.url;
+  var webUrl = x.url || priceUrl;
+  var shopeeUrl = priceUrl.indexOf('shopee.co.id')!==-1 ? priceUrl : 'https://shopee.co.id/search?keyword='+encodeURIComponent(x.title.split(' — ')[0]+' soaker pad');
+  var tokpedUrl = webUrl.indexOf('tokopedia.com')!==-1 ? webUrl : 'https://www.tokopedia.com/search?st=product&q='+encodeURIComponent(x.title.split(' — ')[0]+' soaker pad');
   return '<div class="card" style="opacity:.92">'
     +'<div class="top"><span class="pill dim">'+esc(x.category)+'</span><span style="margin-left:auto;font-size:11px;color:var(--muted)">'+esc(x.share||'')+'</span></div>'
     +'<h3>'+esc(x.title)+'</h3>'
@@ -257,7 +272,7 @@ function restCard(x){
     +'<div class="meta"><span class="abs">💧 '+esc(x.absorb)+'</span><span>'+esc(x.price)+'</span></div>'
     +'<div class="desc">'+esc(x.desc)+'</div>'
     +'<div class="cite">Sumber: <a href="'+esc(citUrl)+'" target="_blank">'+esc(x.citation||x.source||'—')+'</a></div>'
-    +'<div class="actions"><a class="btn ghost" href="'+esc(priceUrl)+'" target="_blank">💰 Cek Harga</a><a class="btn ghost" href="'+esc(x.url)+'" target="_blank">Produk</a></div>'
+    +'<div class="actions"><a class="btn ghost" href="'+esc(webUrl)+'" target="_blank">🏭 Web</a><a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank">🛒 Shopee</a><a class="btn ghost" href="'+esc(tokpedUrl)+'" target="_blank">🟢 Tokopedia</a></div>'
     +'</div>';
 }
 function render(){

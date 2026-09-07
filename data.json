@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T01:39:27.534270+00:00",
+  "updated_at": "2026-09-07T01:44:27.968862+00:00",
   "total": 19,
   "curated": 19,
   "from_feeds": 0,
@@ -203,7 +203,7 @@
       "source": "curated"
     },
     {
-      "id": "67e02c536231",
+      "id": "e60acfc4aa5d",
       "title": "Primapack Soaker MerahPutih",
       "provider": "PT Primapack Nusantara (Bekasi)",
       "category": "Market Leader Indonesia",
@@ -216,7 +216,7 @@
       "volume": "~64 jt pcs/tahun",
       "citation": "Kapasitas pabrik 12jt/bulan + RPA CP/Japfa",
       "citation_url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
-      "url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
+      "url": "https://www.tokopedia.com/search?st=product&q=primapack%20soaker%20pad",
       "desc": "#1 volume lokal, #1 total Indonesia. Pabrik Bekasi 12jt pcs/bulan. Supply RPA Charoen Pokphand, Japfa, Malindo. 30% bawah import.",
       "tags": [
         "indo-1-volume",
@@ -225,7 +225,7 @@
       "source": "curated"
     },
     {
-      "id": "77169cb3dd0e",
+      "id": "640b00420eb9",
       "title": "FreshPad Indonesia",
       "provider": "CV Fresh Pad Nusantara (Bandung)",
       "category": "Market Leader Indonesia",
@@ -238,7 +238,7 @@
       "volume": "~40 jt pcs/tahun",
       "citation": "Marketplace 10k+ terjual 2024-2025",
       "citation_url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
-      "url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
+      "url": "https://www.tokopedia.com/search?st=product&q=freshpad%20absorbent%20daging",
       "desc": "#3 Indonesia, #1 marketplace. Shopee/Tokopedia 4.9★ 10k+ terjual. Target UMKM, butcher, resto. Ecer 50pcs s/d grosir 5k.",
       "tags": [
         "indo-3",
@@ -254,7 +254,7 @@
       "type": "Cellulose + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 110-200 /pcs",
-      "price_url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
+      "price_url": "https://shopee.co.id/search?keyword=DAP%20soaker%20pad",
       "share": "12.6%",
       "revenue": "Rp 53 Miliar/tahun",
       "volume": "~36 jt pcs/tahun",
@@ -276,7 +276,7 @@
       "type": "Nonwoven + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 115-210 /pcs",
-      "price_url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
+      "price_url": "https://shopee.co.id/search?keyword=multi%20pad%20absorbent",
       "share": "8.9%",
       "revenue": "Rp 37 Miliar/tahun",
       "volume": "~25 jt pcs/tahun",
@@ -298,7 +298,7 @@
       "type": "Fluff + PE Lokal",
       "absorb": "400-600ml/m²",
       "price": "Rp 70-130 /pcs",
-      "price_url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
+      "price_url": "https://www.tokopedia.com/search?st=product&q=soaker%20pad%20lokal%20indoplasindo",
       "share": "6.4%",
       "revenue": "Rp 27 Miliar/tahun",
       "volume": "~18 jt pcs/tahun",
@@ -623,7 +623,7 @@
       "source": "curated"
     },
     {
-      "id": "67e02c536231",
+      "id": "e60acfc4aa5d",
       "title": "Primapack Soaker MerahPutih",
       "provider": "PT Primapack Nusantara (Bekasi)",
       "category": "Market Leader Indonesia",
@@ -636,7 +636,7 @@
       "volume": "~64 jt pcs/tahun",
       "citation": "Kapasitas pabrik 12jt/bulan + RPA CP/Japfa",
       "citation_url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
-      "url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
+      "url": "https://www.tokopedia.com/search?st=product&q=primapack%20soaker%20pad",
       "desc": "#1 volume lokal, #1 total Indonesia. Pabrik Bekasi 12jt pcs/bulan. Supply RPA Charoen Pokphand, Japfa, Malindo. 30% bawah import.",
       "tags": [
         "indo-1-volume",
@@ -645,7 +645,7 @@
       "source": "curated"
     },
     {
-      "id": "77169cb3dd0e",
+      "id": "640b00420eb9",
       "title": "FreshPad Indonesia",
       "provider": "CV Fresh Pad Nusantara (Bandung)",
       "category": "Market Leader Indonesia",
@@ -658,7 +658,7 @@
       "volume": "~40 jt pcs/tahun",
       "citation": "Marketplace 10k+ terjual 2024-2025",
       "citation_url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
-      "url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
+      "url": "https://www.tokopedia.com/search?st=product&q=freshpad%20absorbent%20daging",
       "desc": "#3 Indonesia, #1 marketplace. Shopee/Tokopedia 4.9★ 10k+ terjual. Target UMKM, butcher, resto. Ecer 50pcs s/d grosir 5k.",
       "tags": [
         "indo-3",
@@ -674,7 +674,7 @@
       "type": "Cellulose + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 110-200 /pcs",
-      "price_url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
+      "price_url": "https://shopee.co.id/search?keyword=DAP%20soaker%20pad",
       "share": "12.6%",
       "revenue": "Rp 53 Miliar/tahun",
       "volume": "~36 jt pcs/tahun",
@@ -696,7 +696,7 @@
       "type": "Nonwoven + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 115-210 /pcs",
-      "price_url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
+      "price_url": "https://shopee.co.id/search?keyword=multi%20pad%20absorbent",
       "share": "8.9%",
       "revenue": "Rp 37 Miliar/tahun",
       "volume": "~25 jt pcs/tahun",
@@ -718,7 +718,7 @@
       "type": "Fluff + PE Lokal",
       "absorb": "400-600ml/m²",
       "price": "Rp 70-130 /pcs",
-      "price_url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
+      "price_url": "https://www.tokopedia.com/search?st=product&q=soaker%20pad%20lokal%20indoplasindo",
       "share": "6.4%",
       "revenue": "Rp 27 Miliar/tahun",
       "volume": "~18 jt pcs/tahun",
