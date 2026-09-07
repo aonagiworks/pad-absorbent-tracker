@@ -1,0 +1,922 @@
+{
+  "updated_at": "2026-09-07T01:25:57.409709+00:00",
+  "total": 26,
+  "curated": 26,
+  "from_feeds": 0,
+  "offers": [
+    {
+      "id": "fccb6286061f",
+      "title": "Sealed Air Cryovac Dri-Loc",
+      "provider": "Sealed Air (USA)",
+      "category": "Market Leader",
+      "type": "Standard PE + SAP",
+      "absorb": "700-1000ml/m²",
+      "price": "Rp 180-350 /pcs",
+      "url": "https://www.sealedair.com/products/food-packaging/absorbent-pads",
+      "desc": "Market leader global. Dri-Loc paling dipakai retail daging sapi/ayam. SAP ultra, PE perforated, food-grade FDA/EU. Kapasitas tertinggi, distribusi worldwide termasuk Indonesia via distributor.",
+      "tags": [
+        "leader",
+        "SAP",
+        "PE",
+        "ayam",
+        "sapi"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "388c8c9b0c21",
+      "title": "Novipax SuperAbsorb",
+      "provider": "Novipax (USA)",
+      "category": "Market Leader",
+      "type": "Airlaid + SAP",
+      "absorb": "800-1200ml/m²",
+      "price": "Rp 200-400 /pcs",
+      "url": "https://www.novipax.com/products/meat-poultry-pads",
+      "desc": "Leader USA, supply Walmart/Costco. Airlaid + SAP, anti-leak seal, varian black pad untuk daging merah. Kapasitas jumbo untuk tray besar.",
+      "tags": [
+        "leader",
+        "airlaid",
+        "SAP",
+        "sapi"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "e78ab432c3ac",
+      "title": "Sirane Dri-Fresh Fresh-Hold",
+      "provider": "Sirane (UK)",
+      "category": "Market Leader",
+      "type": "Cellulose + SAP",
+      "absorb": "600-900ml/m²",
+      "price": "Rp 170-320 /pcs",
+      "url": "https://www.sirane.com/food-packaging/absorbent-pads/",
+      "desc": "Leader Eropa. Dri-Fresh range lengkap: standard, super, absorbent + anti-fog. Sertifikasi BRC, supply Tesco/M&S. Ada versi compostable.",
+      "tags": [
+        "leader",
+        "cellulose",
+        "fresh-hold"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "94646123894f",
+      "title": "McAirlaid's OptiDri",
+      "provider": "McAirlaid's (Germany)",
+      "category": "Market Leader",
+      "type": "Airlaid Dry-Means",
+      "absorb": "750-1100ml/m²",
+      "price": "Rp 190-380 /pcs",
+      "url": "https://www.mcairlaids.com/food-pads",
+      "desc": "Jerman, teknologi airlaid non-woven proprietary. Dry-Means tidak pakai fluff pulp — lebih tipis tapi serap tinggi. OEKO-TEX, supply Lidl/Aldi.",
+      "tags": [
+        "leader",
+        "airlaid",
+        "jerman"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "72103e19fa90",
+      "title": "Elliott Absorbents Meat Pad",
+      "provider": "Elliott Absorbents (UK)",
+      "category": "Market Leader",
+      "type": "Cellulose + PE",
+      "absorb": "500-800ml/m²",
+      "price": "Rp 150-300 /pcs",
+      "url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
+      "desc": "UK leader, 40+ tahun. Range paling luas: mini 60x80mm sampai jumbo 200x300mm. PE backing anti-bocor, food contact approved.",
+      "tags": [
+        "leader",
+        "cellulose",
+        "UK"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "0205fd13605c",
+      "title": "PaperPak Absorbent Pads",
+      "provider": "PaperPak (Canada)",
+      "category": "Market Leader",
+      "type": "Recycled Cellulose + SAP",
+      "absorb": "600-950ml/m²",
+      "price": "Rp 160-310 /pcs",
+      "url": "https://www.paperpak.ca/food-pads",
+      "desc": "Leader Kanada, fokus sustainable. 100% recycled cellulose + SAP food-grade. Supply Sobeys, Costco Canada. Harga kompetitif untuk volume besar.",
+      "tags": [
+        "leader",
+        "recycled",
+        "kanada"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "e1e92f8dc41c",
+      "title": "Cellcomb Absorber Pad",
+      "provider": "Cellcomb (Sweden)",
+      "category": "Market Challenger",
+      "type": "Cellulose + SAP",
+      "absorb": "550-850ml/m²",
+      "price": "Rp 140-280 /pcs",
+      "url": "https://www.cellcomb.com/absorbent-pads",
+      "desc": "Challenger Skandinavia. Serang leader dengan harga 15-20% lebih murah, kualitas setara. Supply ICA, Coop. Varian anti-bakteri.",
+      "tags": [
+        "challenger",
+        "sweden",
+        "antibakteri"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "1c674752f590",
+      "title": "Coating Excellence Thermasorb",
+      "provider": "Coating Excellence (USA)",
+      "category": "Market Challenger",
+      "type": "PE Coated + SAP",
+      "absorb": "650-900ml/m²",
+      "price": "Rp 150-290 /pcs",
+      "url": "https://www.thermasorb.com",
+      "desc": "Challenger USA. Thermasorb dengan heat-seal edge — tidak bocor samping. Target ambil share Novipax di midwest USA.",
+      "tags": [
+        "challenger",
+        "heat-seal",
+        "USA"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "18917b49d07d",
+      "title": "De Cymbal Absorbent Soaker",
+      "provider": "De Cymbal (UK)",
+      "category": "Market Challenger",
+      "type": "Fluff + SAP + PE",
+      "absorb": "500-750ml/m²",
+      "price": "Rp 130-260 /pcs",
+      "url": "https://www.decymbal.co.uk/soaker-pads",
+      "desc": "Challenger UK harga fighter. Fluff pulp + SAP, PE backing. Fokus pasar wholesale & butcher lokal, MOQ rendah.",
+      "tags": [
+        "challenger",
+        "fluff",
+        "wholesale"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "e3581424cda7",
+      "title": "Mascarello Soaker Pad",
+      "provider": "Mascarello (Italy)",
+      "category": "Market Challenger",
+      "type": "Cellulose + SAP",
+      "absorb": "550-800ml/m²",
+      "price": "Rp 145-275 /pcs",
+      "url": "https://www.mascarello.it/pad-assorbenti",
+      "desc": "Challenger Italia. Desain tipis untuk packaging premium (prosciutto, bresaola). Supply pasar Mediterania, ekspansi ke Asia.",
+      "tags": [
+        "challenger",
+        "italy",
+        "premium"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "6aa18a368b43",
+      "title": "Qingdao Ideal Goal Pad",
+      "provider": "Ideal Goal (China)",
+      "category": "Market Challenger",
+      "type": "SAP + Nonwoven + PE",
+      "absorb": "600-950ml/m²",
+      "price": "Rp 90-180 /pcs",
+      "url": "https://www.idealgoal.cn/meat-pad",
+      "desc": "Challenger China terbesar. Harga 40-50% di bawah leader, kapasitas setara. Supply OEM untuk brand Eropa. MOQ 50k pcs, lead time 20 hari.",
+      "tags": [
+        "challenger",
+        "china",
+        "OEM",
+        "murah"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "f9c953863e83",
+      "title": "Zhongshan Qidong Soaker",
+      "provider": "Zhongshan Qidong (China)",
+      "category": "Market Challenger",
+      "type": "SAP Composite",
+      "absorb": "550-900ml/m²",
+      "price": "Rp 85-170 /pcs",
+      "url": "https://www.qidongpack.com/absorbent-pad",
+      "desc": "Challenger China, spesialis export. Varian warna hitam/putih, ukuran custom. Sudah masuk pasar Indonesia via importir Jakarta.",
+      "tags": [
+        "challenger",
+        "china",
+        "custom"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "2c8d635e2bac",
+      "title": "Dewi Pack Soaker Lokal",
+      "provider": "PT Dewi Pack (Indonesia)",
+      "category": "Market Follower",
+      "type": "Tissue + SAP + PE",
+      "absorb": "400-600ml/m²",
+      "price": "Rp 75-140 /pcs",
+      "url": "https://shopee.co.id/search?keyword=pad%20absorbent%20daging",
+      "desc": "Follower lokal Indonesia. Produksi Bandung/Surabaya, tissue + SAP impor, PE lokal. Harga murah, kualitas menengah. Jual via Shopee/Tokopedia, MOQ 1k pcs.",
+      "tags": [
+        "follower",
+        "lokal",
+        "indonesia",
+        "shopee"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "9bdf10ad5b67",
+      "title": "Indo Absorb Standard",
+      "provider": "PT Indo Absorb (Indonesia)",
+      "category": "Market Follower",
+      "type": "Cellulose + PE",
+      "absorb": "350-550ml/m²",
+      "price": "Rp 60-120 /pcs",
+      "url": "https://www.tokopedia.com/search?st=product&q=soaker%20pad%20daging",
+      "desc": "Follower lokal, tanpa SAP (hanya cellulose). Daya serap rendah, cocok untuk ayam potong & ikan segar. Harga paling murah, target pasar tradisional.",
+      "tags": [
+        "follower",
+        "lokal",
+        "tanpa-SAP",
+        "murah"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "ee710f0ea8d2",
+      "title": "Bulteau Soaker Basic",
+      "provider": "Bulteau Systems (France)",
+      "category": "Market Follower",
+      "type": "Cellulose + PE",
+      "absorb": "400-650ml/m²",
+      "price": "Rp 110-210 /pcs",
+      "url": "https://www.bulteau-systems.com/pads",
+      "desc": "Follower Prancis. Ikut spec leader tapi tanpa inovasi. Harga mid, supply pasar lokal Perancis & export kecil.",
+      "tags": [
+        "follower",
+        "france",
+        "basic"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "d77068bb1515",
+      "title": "Tristar Packaging Pad",
+      "provider": "Tristar Packaging (India)",
+      "category": "Market Follower",
+      "type": "Fluff + PE",
+      "absorb": "350-600ml/m²",
+      "price": "Rp 70-130 /pcs",
+      "url": "https://www.tristarpackaging.in/soaker-pads",
+      "desc": "Follower India. Fluff pulp lokal, PE impor. Fokus pasar domestik India & export ke Timur Tengah. Harga low-end.",
+      "tags": [
+        "follower",
+        "india",
+        "fluff"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "6e67bc93b3e7",
+      "title": "Viet Pack Absorbent",
+      "provider": "Viet Pack (Vietnam)",
+      "category": "Market Follower",
+      "type": "Nonwoven + SAP",
+      "absorb": "450-700ml/m²",
+      "price": "Rp 80-150 /pcs",
+      "url": "https://vietpack.vn/absorbent-pad",
+      "desc": "Follower Vietnam. Copy desain China, harga sedikit lebih tinggi tapi kualitas kontrol lebih baik. Supply pasar ASEAN.",
+      "tags": [
+        "follower",
+        "vietnam",
+        "ASEAN"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "af0323045f38",
+      "title": "Generic Alibaba Soaker 100pcs",
+      "provider": "Generic / Alibaba Import",
+      "category": "Market Follower",
+      "type": "Mixed",
+      "absorb": "300-600ml/m²",
+      "price": "Rp 50-100 /pcs",
+      "url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
+      "desc": "Follower generic Alibaba. Banyak seller, kualitas bervariasi. Risiko: tidak semua food-grade certified. Wajib minta COA & migration test sebelum bulk.",
+      "tags": [
+        "follower",
+        "alibaba",
+        "generic",
+        "risiko"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "4ba088c8fc27",
+      "title": "Sirane Earth Packaging Compostable",
+      "provider": "Sirane (UK) - Earth Line",
+      "category": "Market Nicher",
+      "type": "Compostable Cellulose",
+      "absorb": "400-650ml/m²",
+      "price": "Rp 220-420 /pcs",
+      "url": "https://www.sirane.com/earth-packaging/",
+      "desc": "Nicher eco. 100% compostable, plastic-free, EN13432 certified. Target premium organic meat, zero-waste retailer. Harga 30-40% premium.",
+      "tags": [
+        "nicher",
+        "compostable",
+        "eco",
+        "premium"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "138124e8cec7",
+      "title": "Sealed Air rDri-Loc Recycle-Ready",
+      "provider": "Sealed Air - rDriLoc",
+      "category": "Market Nicher",
+      "type": "Recyclable PE + SAP",
+      "absorb": "600-850ml/m²",
+      "price": "Rp 200-380 /pcs",
+      "url": "https://www.sealedair.com/products/food-packaging/recycle-ready-pads",
+      "desc": "Nicher sustainable. Recycle-ready pad, bisa masuk stream PE recycling. Jawab demand retailer ESG (Aldi, Carrefour).",
+      "tags": [
+        "nicher",
+        "recyclable",
+        "ESG"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "d468113fc16f",
+      "title": "Cryovac Active CO2 Emitter Pad",
+      "provider": "Sealed Air - Active",
+      "category": "Market Nicher",
+      "type": "Active Pad CO2 + Absorb",
+      "absorb": "500-750ml/m²",
+      "price": "Rp 280-500 /pcs",
+      "url": "https://www.sealedair.com/products/active-packaging",
+      "desc": "Nicher active packaging. Pad + CO2 emitter extend shelf life 2-3 hari. Untuk daging premium export, seafood. Butuh cold chain ketat.",
+      "tags": [
+        "nicher",
+        "active",
+        "CO2",
+        "seafood"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "d3580de33554",
+      "title": "Sirane Dri-Fresh ABV Antimicrobial",
+      "provider": "Sirane - ABV",
+      "category": "Market Nicher",
+      "type": "Antimicrobial Cellulose",
+      "absorb": "500-700ml/m²",
+      "price": "Rp 250-450 /pcs",
+      "url": "https://www.sirane.com/dri-fresh-abv/",
+      "desc": "Nicher antimicrobial. Infused active agent hambat bakteri, kurangi bau drip. Untuk ayam & ikan yang cepat busuk. BRC + EFSA approved.",
+      "tags": [
+        "nicher",
+        "antimicrobial",
+        "ayam",
+        "ikan"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "0bba58e0959b",
+      "title": "PaperPak Ultra Green Bio",
+      "provider": "PaperPak - Green Line",
+      "category": "Market Nicher",
+      "type": "Bio SAP + Kraft",
+      "absorb": "450-700ml/m²",
+      "price": "Rp 210-400 /pcs",
+      "url": "https://www.paperpak.ca/green-pads",
+      "desc": "Nicher bio. SAP dari pati tanaman (bukan akrilik), kraft paper unbleached. Target pasar organic/natural meat USA & EU.",
+      "tags": [
+        "nicher",
+        "bio-SAP",
+        "organic"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "53bde7fca90c",
+      "title": "TOMI Odor-Capture Pad",
+      "provider": "TOMI (Japan)",
+      "category": "Market Nicher",
+      "type": "Charcoal + SAP",
+      "absorb": "400-600ml/m²",
+      "price": "Rp 260-480 /pcs",
+      "url": "https://www.tomi-jp.com/odor-pad",
+      "desc": "Nicher Jepang. Pad + activated charcoal serap bau amis. Untuk ikan sashimi-grade & daging wagyu. Pasar premium Jepang/Korea.",
+      "tags": [
+        "nicher",
+        "charcoal",
+        "japan",
+        "ikan",
+        "wagyu"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "6d8db1be34ea",
+      "title": "McAirlaid's Black Pad Premium",
+      "provider": "McAirlaid's - Black",
+      "category": "Market Nicher",
+      "type": "Black Airlaid + SAP",
+      "absorb": "600-850ml/m²",
+      "price": "Rp 190-350 /pcs",
+      "url": "https://www.mcairlaids.com/black-pads",
+      "desc": "Nicher visual. Pad hitam untuk daging merah — drip tidak terlihat, display lebih menarik. Dipakai premium butcher & steakhouse.",
+      "tags": [
+        "nicher",
+        "black-pad",
+        "display",
+        "steak"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "c449317023f2",
+      "title": "Cellcomb Freshness Indicator",
+      "provider": "Cellcomb - Indicator",
+      "category": "Market Nicher",
+      "type": "Smart Pad + Indicator",
+      "absorb": "500-700ml/m²",
+      "price": "Rp 350-600 /pcs",
+      "url": "https://www.cellcomb.com/smart-pads",
+      "desc": "Nicher smart. Pad + indikator warna pH: berubah jika daging mulai rusak. Untuk supply chain farm-to-retail, kurangi food waste.",
+      "tags": [
+        "nicher",
+        "smart",
+        "indicator",
+        "IoT"
+      ],
+      "source": "curated"
+    }
+  ],
+  "courses": [
+    {
+      "id": "fccb6286061f",
+      "title": "Sealed Air Cryovac Dri-Loc",
+      "provider": "Sealed Air (USA)",
+      "category": "Market Leader",
+      "type": "Standard PE + SAP",
+      "absorb": "700-1000ml/m²",
+      "price": "Rp 180-350 /pcs",
+      "url": "https://www.sealedair.com/products/food-packaging/absorbent-pads",
+      "desc": "Market leader global. Dri-Loc paling dipakai retail daging sapi/ayam. SAP ultra, PE perforated, food-grade FDA/EU. Kapasitas tertinggi, distribusi worldwide termasuk Indonesia via distributor.",
+      "tags": [
+        "leader",
+        "SAP",
+        "PE",
+        "ayam",
+        "sapi"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "388c8c9b0c21",
+      "title": "Novipax SuperAbsorb",
+      "provider": "Novipax (USA)",
+      "category": "Market Leader",
+      "type": "Airlaid + SAP",
+      "absorb": "800-1200ml/m²",
+      "price": "Rp 200-400 /pcs",
+      "url": "https://www.novipax.com/products/meat-poultry-pads",
+      "desc": "Leader USA, supply Walmart/Costco. Airlaid + SAP, anti-leak seal, varian black pad untuk daging merah. Kapasitas jumbo untuk tray besar.",
+      "tags": [
+        "leader",
+        "airlaid",
+        "SAP",
+        "sapi"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "e78ab432c3ac",
+      "title": "Sirane Dri-Fresh Fresh-Hold",
+      "provider": "Sirane (UK)",
+      "category": "Market Leader",
+      "type": "Cellulose + SAP",
+      "absorb": "600-900ml/m²",
+      "price": "Rp 170-320 /pcs",
+      "url": "https://www.sirane.com/food-packaging/absorbent-pads/",
+      "desc": "Leader Eropa. Dri-Fresh range lengkap: standard, super, absorbent + anti-fog. Sertifikasi BRC, supply Tesco/M&S. Ada versi compostable.",
+      "tags": [
+        "leader",
+        "cellulose",
+        "fresh-hold"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "94646123894f",
+      "title": "McAirlaid's OptiDri",
+      "provider": "McAirlaid's (Germany)",
+      "category": "Market Leader",
+      "type": "Airlaid Dry-Means",
+      "absorb": "750-1100ml/m²",
+      "price": "Rp 190-380 /pcs",
+      "url": "https://www.mcairlaids.com/food-pads",
+      "desc": "Jerman, teknologi airlaid non-woven proprietary. Dry-Means tidak pakai fluff pulp — lebih tipis tapi serap tinggi. OEKO-TEX, supply Lidl/Aldi.",
+      "tags": [
+        "leader",
+        "airlaid",
+        "jerman"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "72103e19fa90",
+      "title": "Elliott Absorbents Meat Pad",
+      "provider": "Elliott Absorbents (UK)",
+      "category": "Market Leader",
+      "type": "Cellulose + PE",
+      "absorb": "500-800ml/m²",
+      "price": "Rp 150-300 /pcs",
+      "url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
+      "desc": "UK leader, 40+ tahun. Range paling luas: mini 60x80mm sampai jumbo 200x300mm. PE backing anti-bocor, food contact approved.",
+      "tags": [
+        "leader",
+        "cellulose",
+        "UK"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "0205fd13605c",
+      "title": "PaperPak Absorbent Pads",
+      "provider": "PaperPak (Canada)",
+      "category": "Market Leader",
+      "type": "Recycled Cellulose + SAP",
+      "absorb": "600-950ml/m²",
+      "price": "Rp 160-310 /pcs",
+      "url": "https://www.paperpak.ca/food-pads",
+      "desc": "Leader Kanada, fokus sustainable. 100% recycled cellulose + SAP food-grade. Supply Sobeys, Costco Canada. Harga kompetitif untuk volume besar.",
+      "tags": [
+        "leader",
+        "recycled",
+        "kanada"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "e1e92f8dc41c",
+      "title": "Cellcomb Absorber Pad",
+      "provider": "Cellcomb (Sweden)",
+      "category": "Market Challenger",
+      "type": "Cellulose + SAP",
+      "absorb": "550-850ml/m²",
+      "price": "Rp 140-280 /pcs",
+      "url": "https://www.cellcomb.com/absorbent-pads",
+      "desc": "Challenger Skandinavia. Serang leader dengan harga 15-20% lebih murah, kualitas setara. Supply ICA, Coop. Varian anti-bakteri.",
+      "tags": [
+        "challenger",
+        "sweden",
+        "antibakteri"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "1c674752f590",
+      "title": "Coating Excellence Thermasorb",
+      "provider": "Coating Excellence (USA)",
+      "category": "Market Challenger",
+      "type": "PE Coated + SAP",
+      "absorb": "650-900ml/m²",
+      "price": "Rp 150-290 /pcs",
+      "url": "https://www.thermasorb.com",
+      "desc": "Challenger USA. Thermasorb dengan heat-seal edge — tidak bocor samping. Target ambil share Novipax di midwest USA.",
+      "tags": [
+        "challenger",
+        "heat-seal",
+        "USA"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "18917b49d07d",
+      "title": "De Cymbal Absorbent Soaker",
+      "provider": "De Cymbal (UK)",
+      "category": "Market Challenger",
+      "type": "Fluff + SAP + PE",
+      "absorb": "500-750ml/m²",
+      "price": "Rp 130-260 /pcs",
+      "url": "https://www.decymbal.co.uk/soaker-pads",
+      "desc": "Challenger UK harga fighter. Fluff pulp + SAP, PE backing. Fokus pasar wholesale & butcher lokal, MOQ rendah.",
+      "tags": [
+        "challenger",
+        "fluff",
+        "wholesale"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "e3581424cda7",
+      "title": "Mascarello Soaker Pad",
+      "provider": "Mascarello (Italy)",
+      "category": "Market Challenger",
+      "type": "Cellulose + SAP",
+      "absorb": "550-800ml/m²",
+      "price": "Rp 145-275 /pcs",
+      "url": "https://www.mascarello.it/pad-assorbenti",
+      "desc": "Challenger Italia. Desain tipis untuk packaging premium (prosciutto, bresaola). Supply pasar Mediterania, ekspansi ke Asia.",
+      "tags": [
+        "challenger",
+        "italy",
+        "premium"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "6aa18a368b43",
+      "title": "Qingdao Ideal Goal Pad",
+      "provider": "Ideal Goal (China)",
+      "category": "Market Challenger",
+      "type": "SAP + Nonwoven + PE",
+      "absorb": "600-950ml/m²",
+      "price": "Rp 90-180 /pcs",
+      "url": "https://www.idealgoal.cn/meat-pad",
+      "desc": "Challenger China terbesar. Harga 40-50% di bawah leader, kapasitas setara. Supply OEM untuk brand Eropa. MOQ 50k pcs, lead time 20 hari.",
+      "tags": [
+        "challenger",
+        "china",
+        "OEM",
+        "murah"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "f9c953863e83",
+      "title": "Zhongshan Qidong Soaker",
+      "provider": "Zhongshan Qidong (China)",
+      "category": "Market Challenger",
+      "type": "SAP Composite",
+      "absorb": "550-900ml/m²",
+      "price": "Rp 85-170 /pcs",
+      "url": "https://www.qidongpack.com/absorbent-pad",
+      "desc": "Challenger China, spesialis export. Varian warna hitam/putih, ukuran custom. Sudah masuk pasar Indonesia via importir Jakarta.",
+      "tags": [
+        "challenger",
+        "china",
+        "custom"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "2c8d635e2bac",
+      "title": "Dewi Pack Soaker Lokal",
+      "provider": "PT Dewi Pack (Indonesia)",
+      "category": "Market Follower",
+      "type": "Tissue + SAP + PE",
+      "absorb": "400-600ml/m²",
+      "price": "Rp 75-140 /pcs",
+      "url": "https://shopee.co.id/search?keyword=pad%20absorbent%20daging",
+      "desc": "Follower lokal Indonesia. Produksi Bandung/Surabaya, tissue + SAP impor, PE lokal. Harga murah, kualitas menengah. Jual via Shopee/Tokopedia, MOQ 1k pcs.",
+      "tags": [
+        "follower",
+        "lokal",
+        "indonesia",
+        "shopee"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "9bdf10ad5b67",
+      "title": "Indo Absorb Standard",
+      "provider": "PT Indo Absorb (Indonesia)",
+      "category": "Market Follower",
+      "type": "Cellulose + PE",
+      "absorb": "350-550ml/m²",
+      "price": "Rp 60-120 /pcs",
+      "url": "https://www.tokopedia.com/search?st=product&q=soaker%20pad%20daging",
+      "desc": "Follower lokal, tanpa SAP (hanya cellulose). Daya serap rendah, cocok untuk ayam potong & ikan segar. Harga paling murah, target pasar tradisional.",
+      "tags": [
+        "follower",
+        "lokal",
+        "tanpa-SAP",
+        "murah"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "ee710f0ea8d2",
+      "title": "Bulteau Soaker Basic",
+      "provider": "Bulteau Systems (France)",
+      "category": "Market Follower",
+      "type": "Cellulose + PE",
+      "absorb": "400-650ml/m²",
+      "price": "Rp 110-210 /pcs",
+      "url": "https://www.bulteau-systems.com/pads",
+      "desc": "Follower Prancis. Ikut spec leader tapi tanpa inovasi. Harga mid, supply pasar lokal Perancis & export kecil.",
+      "tags": [
+        "follower",
+        "france",
+        "basic"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "d77068bb1515",
+      "title": "Tristar Packaging Pad",
+      "provider": "Tristar Packaging (India)",
+      "category": "Market Follower",
+      "type": "Fluff + PE",
+      "absorb": "350-600ml/m²",
+      "price": "Rp 70-130 /pcs",
+      "url": "https://www.tristarpackaging.in/soaker-pads",
+      "desc": "Follower India. Fluff pulp lokal, PE impor. Fokus pasar domestik India & export ke Timur Tengah. Harga low-end.",
+      "tags": [
+        "follower",
+        "india",
+        "fluff"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "6e67bc93b3e7",
+      "title": "Viet Pack Absorbent",
+      "provider": "Viet Pack (Vietnam)",
+      "category": "Market Follower",
+      "type": "Nonwoven + SAP",
+      "absorb": "450-700ml/m²",
+      "price": "Rp 80-150 /pcs",
+      "url": "https://vietpack.vn/absorbent-pad",
+      "desc": "Follower Vietnam. Copy desain China, harga sedikit lebih tinggi tapi kualitas kontrol lebih baik. Supply pasar ASEAN.",
+      "tags": [
+        "follower",
+        "vietnam",
+        "ASEAN"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "af0323045f38",
+      "title": "Generic Alibaba Soaker 100pcs",
+      "provider": "Generic / Alibaba Import",
+      "category": "Market Follower",
+      "type": "Mixed",
+      "absorb": "300-600ml/m²",
+      "price": "Rp 50-100 /pcs",
+      "url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
+      "desc": "Follower generic Alibaba. Banyak seller, kualitas bervariasi. Risiko: tidak semua food-grade certified. Wajib minta COA & migration test sebelum bulk.",
+      "tags": [
+        "follower",
+        "alibaba",
+        "generic",
+        "risiko"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "4ba088c8fc27",
+      "title": "Sirane Earth Packaging Compostable",
+      "provider": "Sirane (UK) - Earth Line",
+      "category": "Market Nicher",
+      "type": "Compostable Cellulose",
+      "absorb": "400-650ml/m²",
+      "price": "Rp 220-420 /pcs",
+      "url": "https://www.sirane.com/earth-packaging/",
+      "desc": "Nicher eco. 100% compostable, plastic-free, EN13432 certified. Target premium organic meat, zero-waste retailer. Harga 30-40% premium.",
+      "tags": [
+        "nicher",
+        "compostable",
+        "eco",
+        "premium"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "138124e8cec7",
+      "title": "Sealed Air rDri-Loc Recycle-Ready",
+      "provider": "Sealed Air - rDriLoc",
+      "category": "Market Nicher",
+      "type": "Recyclable PE + SAP",
+      "absorb": "600-850ml/m²",
+      "price": "Rp 200-380 /pcs",
+      "url": "https://www.sealedair.com/products/food-packaging/recycle-ready-pads",
+      "desc": "Nicher sustainable. Recycle-ready pad, bisa masuk stream PE recycling. Jawab demand retailer ESG (Aldi, Carrefour).",
+      "tags": [
+        "nicher",
+        "recyclable",
+        "ESG"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "d468113fc16f",
+      "title": "Cryovac Active CO2 Emitter Pad",
+      "provider": "Sealed Air - Active",
+      "category": "Market Nicher",
+      "type": "Active Pad CO2 + Absorb",
+      "absorb": "500-750ml/m²",
+      "price": "Rp 280-500 /pcs",
+      "url": "https://www.sealedair.com/products/active-packaging",
+      "desc": "Nicher active packaging. Pad + CO2 emitter extend shelf life 2-3 hari. Untuk daging premium export, seafood. Butuh cold chain ketat.",
+      "tags": [
+        "nicher",
+        "active",
+        "CO2",
+        "seafood"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "d3580de33554",
+      "title": "Sirane Dri-Fresh ABV Antimicrobial",
+      "provider": "Sirane - ABV",
+      "category": "Market Nicher",
+      "type": "Antimicrobial Cellulose",
+      "absorb": "500-700ml/m²",
+      "price": "Rp 250-450 /pcs",
+      "url": "https://www.sirane.com/dri-fresh-abv/",
+      "desc": "Nicher antimicrobial. Infused active agent hambat bakteri, kurangi bau drip. Untuk ayam & ikan yang cepat busuk. BRC + EFSA approved.",
+      "tags": [
+        "nicher",
+        "antimicrobial",
+        "ayam",
+        "ikan"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "0bba58e0959b",
+      "title": "PaperPak Ultra Green Bio",
+      "provider": "PaperPak - Green Line",
+      "category": "Market Nicher",
+      "type": "Bio SAP + Kraft",
+      "absorb": "450-700ml/m²",
+      "price": "Rp 210-400 /pcs",
+      "url": "https://www.paperpak.ca/green-pads",
+      "desc": "Nicher bio. SAP dari pati tanaman (bukan akrilik), kraft paper unbleached. Target pasar organic/natural meat USA & EU.",
+      "tags": [
+        "nicher",
+        "bio-SAP",
+        "organic"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "53bde7fca90c",
+      "title": "TOMI Odor-Capture Pad",
+      "provider": "TOMI (Japan)",
+      "category": "Market Nicher",
+      "type": "Charcoal + SAP",
+      "absorb": "400-600ml/m²",
+      "price": "Rp 260-480 /pcs",
+      "url": "https://www.tomi-jp.com/odor-pad",
+      "desc": "Nicher Jepang. Pad + activated charcoal serap bau amis. Untuk ikan sashimi-grade & daging wagyu. Pasar premium Jepang/Korea.",
+      "tags": [
+        "nicher",
+        "charcoal",
+        "japan",
+        "ikan",
+        "wagyu"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "6d8db1be34ea",
+      "title": "McAirlaid's Black Pad Premium",
+      "provider": "McAirlaid's - Black",
+      "category": "Market Nicher",
+      "type": "Black Airlaid + SAP",
+      "absorb": "600-850ml/m²",
+      "price": "Rp 190-350 /pcs",
+      "url": "https://www.mcairlaids.com/black-pads",
+      "desc": "Nicher visual. Pad hitam untuk daging merah — drip tidak terlihat, display lebih menarik. Dipakai premium butcher & steakhouse.",
+      "tags": [
+        "nicher",
+        "black-pad",
+        "display",
+        "steak"
+      ],
+      "source": "curated"
+    },
+    {
+      "id": "c449317023f2",
+      "title": "Cellcomb Freshness Indicator",
+      "provider": "Cellcomb - Indicator",
+      "category": "Market Nicher",
+      "type": "Smart Pad + Indicator",
+      "absorb": "500-700ml/m²",
+      "price": "Rp 350-600 /pcs",
+      "url": "https://www.cellcomb.com/smart-pads",
+      "desc": "Nicher smart. Pad + indikator warna pH: berubah jika daging mulai rusak. Untuk supply chain farm-to-retail, kurangi food waste.",
+      "tags": [
+        "nicher",
+        "smart",
+        "indicator",
+        "IoT"
+      ],
+      "source": "curated"
+    }
+  ]
+}

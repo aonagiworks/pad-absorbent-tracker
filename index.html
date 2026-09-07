@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pad Absorbent Daging Tracker — Market Leader / Challenger / Follower / Nicher</title>
+<meta name="description" content="Database pad absorbent soaker drip daging — mapping market leader, challenger, follower, nicher. 26 produk + update otomatis.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0f1410;--card:#1a211c;--card2:#1f2a22;--line:#2a3a2e;--accent:#7CFF8B;--accent2:#3DD68C;--muted:#8da397;--text:#e8f0e8;--chip:#243028;--warn:#FFB84D;--leader:#7CFF8B;--challenger:#5ED6FF;--follower:#FFB84D;--nicher:#D68CFF;--news:#8da397}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+/* nav */
+.nav{position:sticky;top:0;z-index:20;background:rgba(15,20,16,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.navin{max-width:1180px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-weight:900;letter-spacing:-.5px;font-size:18px}
+.logo span{color:var(--accent)}
+.badge{font-size:11px;border:1px solid var(--line);padding:3px 8px;border-radius:999px;color:var(--muted);background:var(--chip)}
+.navlinks{margin-left:auto;display:flex;gap:12px;font-size:13px}
+.navlinks a{color:var(--muted)} .navlinks a:hover{color:var(--text)}
+/* hero */
+.hero{max-width:1180px;margin:0 auto;padding:28px 16px 8px}
+.hero h1{font-size:32px;line-height:1.1;letter-spacing:-1px}
+.hero h1 em{color:var(--accent);font-style:normal}
+.hero p{color:var(--muted);max-width:760px;margin-top:8px;font-size:14px}
+.hero p strong{color:var(--text)}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:110px}
+.stat b{font-size:20px;display:block}
+.stat span{font-size:11px;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
+/* matrix */
+.matrix{max-width:1180px;margin:16px auto 0;padding:0 16px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mx{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.mx h3{font-size:13px;letter-spacing:.6px;text-transform:uppercase}
+.mx p{font-size:12px;color:var(--muted);margin-top:4px}
+.mx.leader{border-left:4px solid var(--leader)}
+.mx.challenger{border-left:4px solid var(--challenger)}
+.mx.follower{border-left:4px solid var(--follower)}
+.mx.nicher{border-left:4px solid var(--nicher)}
+@media(max-width:640px){.matrix{grid-template-columns:1fr} .hero h1{font-size:26px}}
+/* controls */
+.controls{max-width:1180px;margin:16px auto 0;padding:0 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search{flex:1;min-width:220px;position:relative}
+.search input{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);padding:11px 14px 11px 36px;border-radius:999px;outline:none}
+.search input:focus{border-color:var(--accent2)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);opacity:.5}
+select,button{appearance:none;background:var(--card);border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:999px;font-size:13px}
+button{cursor:pointer}
+button.on{background:var(--accent);color:#0f1410;border-color:var(--accent);font-weight:700}
+.cats{display:flex;gap:8px;flex-wrap:wrap}
+.cat{padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--chip);font-size:12px;cursor:pointer;user-select:none}
+.cat.on{background:var(--text);color:var(--bg);border-color:var(--text);font-weight:700}
+.cat.leader.on{background:var(--leader);color:#0f1410;border-color:var(--leader)}
+.cat.challenger.on{background:var(--challenger);color:#0f1410;border-color:var(--challenger)}
+.cat.follower.on{background:var(--follower);color:#0f1410;border-color:var(--follower)}
+.cat.nicher.on{background:var(--nicher);color:#0f1410;border-color:var(--nicher)}
+/* grid */
+.wrap{max-width:1180px;margin:12px auto;padding:0 16px 40px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:8px;transition:transform .08s,border-color .12s}
+.card:hover{transform:translateY(-1px);border-color:#3a4d3e}
+.top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.pill{font-size:10px;letter-spacing:.5px;text-transform:uppercase;font-weight:800;padding:4px 8px;border-radius:999px;border:1px solid var(--line)}
+.pill.leader{background:rgba(124,255,139,.14);color:var(--leader);border-color:rgba(124,255,139,.3)}
+.pill.challenger{background:rgba(94,214,255,.14);color:var(--challenger);border-color:rgba(94,214,255,.3)}
+.pill.follower{background:rgba(255,184,77,.14);color:var(--follower);border-color:rgba(255,184,77,.3)}
+.pill.nicher{background:rgba(214,140,255,.14);color:var(--nicher);border-color:rgba(214,140,255,.3)}
+.pill.news{background:rgba(141,163,151,.14);color:var(--muted);border-color:var(--line)}
+.price{margin-left:auto;font-size:11px;color:var(--warn);font-weight:700;background:rgba(255,184,77,.1);border:1px solid rgba(255,184,77,.2);padding:3px 8px;border-radius:999px}
+.card h3{font-size:15px;line-height:1.25}
+.provider{font-size:12px;color:var(--muted)}
+.desc{font-size:12.5px;color:#c8d8c8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.meta span{font-size:11px;background:var(--chip);border:1px solid var(--line);padding:3px 7px;border-radius:999px;color:var(--muted)}
+.meta span.abs{color:var(--accent);border-color:rgba(124,255,139,.2)}
+.actions{display:flex;gap:8px;margin-top:6px}
+.btn{flex:1;text-align:center;padding:8px 10px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid var(--line)}
+.btn.primary{background:var(--accent);color:#0f1410;border-color:var(--accent)}
+.btn.ghost{background:transparent;color:var(--muted)}
+.btn.ghost:hover{color:var(--text);border-color:#3a4d3e}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tags i{font-style:normal;font-size:10px;color:var(--muted);background:rgba(255,255,255,.04);padding:2px 6px;border-radius:999px;border:1px solid rgba(255,255,255,.06)}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:30px;border:1px dashed var(--line);border-radius:16px;background:rgba(255,255,255,.02)}
+.foot{max-width:1180px;margin:0 auto;padding:0 16px 30px;color:var(--muted);font-size:12px}
+.foot a{color:var(--muted);text-decoration:underline}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.legend span{font-size:11px;border:1px solid var(--line);padding:4px 8px;border-radius:999px;background:var(--card)}
+</style>
+</head>
+<body>
+<div class="nav"><div class="navin">
+  <div class="logo">🥩 PAD<span>DRIP</span> TRACKER</div>
+  <span class="badge" id="updated">loading…</span>
+  <div class="navlinks"><a href="#grid">Katalog</a><a href="#" id="exportBtn">Export JSON</a></div>
+</div></div>
+
+<div class="hero">
+  <h1>Pad absorbent untuk <em>menyerap drip daging</em><br>mapping market 4 kuadran</h1>
+  <p><strong>26 produk curated</strong> — soaker pad / drip pad untuk penyimpanan daging sapi, ayam, ikan. Dibagi <strong>Market Leader</strong> (dominan global), <strong>Challenger</strong> (serang leader harga/spek), <strong>Follower</strong> (ikut spec, harga murah) dan <strong>Nicher</strong> (segmen khusus: compostable, antimicrobial, smart). Filter, cari, bandingkan kapasitas serap & harga per pcs.</p>
+  <div class="stats" id="stats"></div>
+  <div class="legend">
+    <span style="border-left:3px solid var(--leader)">Leader = pangsa terbesar, jadi patokan harga & spec</span>
+    <span style="border-left:3px solid var(--challenger)">Challenger = incar posisi leader, agresif harga/fitur</span>
+    <span style="border-left:3px solid var(--follower)">Follower = ikut leader, main di harga murah + MOQ kecil</span>
+    <span style="border-left:3px solid var(--nicher)">Nicher = fokus ceruk: eco / active / premium display</span>
+  </div>
+</div>
+
+<div class="matrix">
+  <div class="mx leader"><h3>👑 Market Leader</h3><p>Sealed Air Cryovac, Novipax, Sirane, McAirlaid's — kuasai retail global. Spec tinggi (SAP 700-1200ml/m²), sertifikasi FDA/BRC, distribusi luas. Harga premium.</p></div>
+  <div class="mx challenger"><h3>⚔️ Market Challenger</h3><p>Cellcomb, Thermasorb, Ideal Goal China — spec mirip leader tapi 15-50% lebih murah. Serang via harga & OEM. Target ambil share leader.</p></div>
+  <div class="mx follower"><h3>👥 Market Follower</h3><p>PT lokal Indonesia, Tristar India, Viet Pack — ikut desain leader, tanpa inovasi. Andalan: harga 50-100/pcs, MOQ 1k, jual Shopee/Tokopedia/Alibaba.</p></div>
+  <div class="mx nicher"><h3>🎯 Market Nicher</h3><p>Compostable, recyclable, antimicrobial, CO2 emitter, charcoal odor, black pad, smart indicator — harga 30-80% premium, volume kecil, margin tinggi.</p></div>
+</div>
+
+<div class="controls">
+  <div class="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="q" placeholder="Cari: SAP, ayam, compostable, China, lokal…">
+  </div>
+  <select id="sort"><option value="cat">Urut: Kategori</option><option value="price">Harga terendah</option><option value="absorb">Daya serap tertinggi</option><option value="title">Nama A-Z</option></select>
+</div>
+<div class="controls" style="margin-top:8px"><div class="cats" id="cats"></div></div>
+
+<div class="wrap"><div class="grid" id="grid"></div></div>
+
+<div class="foot">
+  Data curated manual + feed packaging/meat otomatis (6 jam). Harga estimasi grosir Indonesia per pcs (MOQ 1k-10k), bisa berubah. Wajib minta <b>COA + food contact migration test</b> sebelum bulk, terutama import Alibaba/China.<br>
+  Build: <span id="footUpd">—</span> · <a href="data.json" target="_blank">data.json</a> · <a href="https://github.com/aonagiworks/pad-absorbent-tracker" target="_blank">GitHub</a>
+</div>
+
+<script>
+function esc(s){var d=document.createElement('div');d.textContent=s==null?'':String(s);return d.innerHTML;}
+var CATS=['Semua','Market Leader','Market Challenger','Market Follower','Market Nicher','News/Update'];
+var active='Semua';
+var DATA=[];
+
+function catClass(c){
+  if(c==='Market Leader') return 'leader';
+  if(c==='Market Challenger') return 'challenger';
+  if(c==='Market Follower') return 'follower';
+  if(c==='Market Nicher') return 'nicher';
+  return 'news';
+}
+function pillCat(c){
+  var cls=catClass(c);
+  var label=c;
+  if(c==='Market Leader') label='LEADER';
+  else if(c==='Market Challenger') label='CHALLENGER';
+  else if(c==='Market Follower') label='FOLLOWER';
+  else if(c==='Market Nicher') label='NICHER';
+  else if(c==='News/Update') label='NEWS';
+  return '<span class="pill '+cls+'">'+esc(label)+'</span>';
+}
+function priceNum(p){
+  var m=String(p).match(/(\d+)/);
+  return m?parseInt(m[1],10):9999;
+}
+function absorbNum(a){
+  var m=String(a).match(/(\d+)\s*-\s*(\d+)/);
+  if(m) return parseInt(m[2],10);
+  var m2=String(a).match(/(\d+)/);
+  return m2?parseInt(m2[1],10):0;
+}
+function buildCats(){
+  var el=document.getElementById('cats');
+  el.innerHTML=CATS.map(function(c){
+    var cls=catClass(c);
+    var on = active===c ? ' on '+cls : '';
+    // Semua no extra cls
+    var extra = c==='Semua' ? '' : ' '+cls;
+    return '<span class="cat'+on+extra+'" data-cat="'+esc(c)+'">'+esc(c)+'</span>';
+  }).join('');
+  el.querySelectorAll('.cat').forEach(function(n){
+    n.addEventListener('click',function(){
+      active=n.getAttribute('data-cat');
+      buildCats(); render();
+    });
+  });
+}
+function render(){
+  var q=(document.getElementById('q').value||'').toLowerCase().trim();
+  var sort=document.getElementById('sort').value;
+  var list=DATA.slice();
+  list=list.filter(function(x){
+    if(active!=='Semua' && x.category!==active) return false;
+    if(!q) return true;
+    var hay=[x.title,x.provider,x.category,x.type,x.absorb,x.price,x.desc,(x.tags||[]).join(' ')].join(' ').toLowerCase();
+    return hay.indexOf(q)!==-1;
+  });
+  if(sort==='price') list.sort(function(a,b){return priceNum(a.price)-priceNum(b.price);});
+  else if(sort==='absorb') list.sort(function(a,b){return absorbNum(b.absorb)-absorbNum(a.absorb);});
+  else if(sort==='title') list.sort(function(a,b){return a.title.localeCompare(b.title);});
+  else {
+    var order={'Market Leader':0,'Market Challenger':1,'Market Follower':2,'Market Nicher':3,'News/Update':4};
+    list.sort(function(a,b){return (order[a.category]||9)-(order[b.category]||9) || a.title.localeCompare(b.title);});
+  }
+  var g=document.getElementById('grid');
+  if(!list.length){ g.innerHTML='<div class="empty">Tidak ada hasil untuk filter ini. Coba kata kunci lain atau pilih kategori lain.</div>'; return; }
+  g.innerHTML=list.map(function(x){
+    var tags=(x.tags||[]).map(function(t){return '<i>#'+esc(t)+'</i>';}).join('');
+    return '<div class="card">'
+      +'<div class="top">'+pillCat(x.category)+'<span class="price">'+esc(x.price)+'</span></div>'
+      +'<h3>'+esc(x.title)+'</h3>'
+      +'<div class="provider">'+esc(x.provider)+' · '+esc(x.type)+'</div>'
+      +'<div class="desc">'+esc(x.desc)+'</div>'
+      +'<div class="meta"><span class="abs">💧 '+esc(x.absorb)+'</span><span>'+esc(x.type)+'</span></div>'
+      +'<div class="tags">'+tags+'</div>'
+      +'<div class="actions"><a class="btn primary" href="'+esc(x.url)+'" target="_blank" rel="noopener">Lihat produk</a><a class="btn ghost" href="https://www.google.com/search?q='+encodeURIComponent(x.title+' '+x.provider)+' " target="_blank">Cari harga</a></div>'
+      +'</div>';
+  }).join('');
+}
+
+fetch('data.json?v='+Date.now()).then(function(r){return r.json();}).then(function(j){
+  DATA=j.offers||j.courses||[];
+  var upd=j.updated_at||'';
+  var dstr='';
+  try{ dstr=new Date(upd).toLocaleString('id-ID',{dateStyle:'medium',timeStyle:'short'});}catch(e){dstr=upd;}
+  document.getElementById('updated').textContent='Update '+dstr+' · '+j.total+' item';
+  document.getElementById('footUpd').textContent=dstr;
+  document.getElementById('stats').innerHTML=[
+    '<div class="stat"><b>'+j.total+'</b><span>Total item</span></div>',
+    '<div class="stat"><b>'+j.curated+'</b><span>Curated</span></div>',
+    '<div class="stat"><b>'+j.from_feeds+'</b><span>Dari feed</span></div>',
+    '<div class="stat"><b>4</b><span>Segmen market</span></div>',
+    '<div class="stat"><b>26</b><span>Brand pad</span></div>'
+  ].join('');
+  buildCats(); render();
+  document.getElementById('q').addEventListener('input',render);
+  document.getElementById('sort').addEventListener('change',render);
+  document.getElementById('exportBtn').addEventListener('click',function(e){
+    e.preventDefault();
+    var blob=new Blob([JSON.stringify(j,null,2)],{type:'application/json'});
+    var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='pad-absorbent-data.json';a.click();
+  });
+}).catch(function(e){
+  document.getElementById('grid').innerHTML='<div class="empty">Gagal load data.json: '+esc(e.message)+'</div>';
+});
+</script>
+</body>
+</html>
