@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Market Leader Pad Absorbent Daging — Data Pangsa Pasar Valid</title>
-<meta name="description" content="Market leader pad absorbent daging (soaker/drip pad) — pangsa pasar global & Indonesia, data penjualan, revenue, volume. Filter Leader Global vs Leader Indonesia.">
+<title>Market Leader Pad Absorbent Daging — Pangsa Pasar % + Harga + Chart</title>
+<meta name="description" content="Market leader pad absorbent daging — presentase penguasaan pasar global & Indonesia, harga per pcs link langsung, revenue & volume, chart donut + bar, sumber valid.">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0d1110;--card:#171e1a;--line:#28332b;--accent:#7CFF8B;--accent2:#3DD68C;--muted:#92a99a;--text:#e6f0e8;--chip:#212e24;--warn:#FFB84D;--leader:#7CFF8B;--leaderIndo:#5ED6FF;--challenger:#94a3b8;--follower:#a1a1aa;--nicher:#c4b5fd}
+:root{--bg:#0d1110;--card:#171e1a;--line:#28332b;--accent:#7CFF8B;--accent2:#3DD68C;--muted:#92a99a;--text:#e6f0e8;--chip:#212e24;--warn:#FFB84D;--leader:#7CFF8B;--leaderIndo:#5ED6FF}
 body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
@@ -19,32 +19,35 @@ a:hover{text-decoration:underline}
 .navlinks{margin-left:auto;display:flex;gap:12px;font-size:13px}
 .navlinks a{color:var(--muted)}
 .hero{max-width:1180px;margin:0 auto;padding:26px 16px 6px}
-.hero h1{font-size:30px;line-height:1.08;letter-spacing:-.9px}
+.hero h1{font-size:28px;line-height:1.08;letter-spacing:-.9px}
 .hero h1 em{color:var(--accent);font-style:normal}
-.hero .sub{color:var(--muted);max-width:820px;margin-top:8px;font-size:13.5px}
+.hero .sub{color:var(--muted);max-width:840px;margin-top:8px;font-size:13.5px}
 .hero .sub strong{color:var(--text)}
 .notice{margin-top:12px;background:#1a211c;border:1px solid #2d3d30;border-left:4px solid var(--warn);border-radius:10px;padding:10px 12px;font-size:12px;color:#d8e6d8}
 .notice b{color:var(--warn)}
 .stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:110px}
-.stat b{font-size:19px;display:block}
-.stat span{font-size:10.5px;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
-/* share panels */
-.panels{max-width:1180px;margin:16px auto 0;padding:0 16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(max-width:820px){.panels{grid-template-columns:1fr}}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
-.panel h3{font-size:12px;letter-spacing:.6px;text-transform:uppercase;display:flex;align-items:center;gap:8px}
-.panel h3 .dot{width:8px;height:8px;border-radius:999px;display:inline-block}
-.panel .meta{font-size:11px;color:var(--muted);margin-top:2px}
-.bars{margin-top:10px;display:flex;flex-direction:column;gap:7px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:105px}
+.stat b{font-size:18px;display:block}
+.stat span{font-size:10px;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
+.charts{max-width:1180px;margin:16px auto 0;padding:0 16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:860px){.charts{grid-template-columns:1fr}}
+.chartCard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.chartCard h3{font-size:12px;letter-spacing:.6px;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.chartCard h3 .dot{width:8px;height:8px;border-radius:999px;display:inline-block}
+.chartCard .meta{font-size:11px;color:var(--muted);margin-top:2px}
+.chartWrap{display:flex;gap:14px;align-items:center;margin-top:12px;flex-wrap:wrap}
+.chartWrap canvas{flex-shrink:0}
+.legend{flex:1;min-width:180px;display:flex;flex-direction:column;gap:5px}
+.legItem{display:flex;align-items:center;gap:7px;font-size:11.5px}
+.legColor{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+.legName{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.legPct{font-weight:800;color:var(--text)}
+.bars{margin-top:12px;display:flex;flex-direction:column;gap:7px}
 .bar-row{display:flex;align-items:center;gap:8px;font-size:12px}
-.bar-label{width:135px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);font-weight:600}
+.bar-label{width:130px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text);font-weight:600}
 .bar-track{flex:1;height:10px;background:#1e2a21;border-radius:999px;overflow:hidden;border:1px solid #263328}
 .bar-fill{height:100%;border-radius:999px}
 .bar-pct{width:44px;text-align:right;font-weight:800;color:var(--muted);font-size:11px}
-.bar-sub{font-size:10px;color:var(--muted);margin-left:143px;margin-top:-4px}
-.legend2{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.legend2 span{font-size:10.5px;border:1px solid var(--line);padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}
 .controls{max-width:1180px;margin:14px auto 0;padding:0 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .search{flex:1;min-width:220px;position:relative}
 .search input{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);padding:11px 14px 11px 36px;border-radius:999px;outline:none}
@@ -60,7 +63,7 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 .wrap{max-width:1180px;margin:12px auto;padding:0 16px 32px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:640px){.grid{grid-template-columns:1fr} .hero h1{font-size:24px}}
+@media(max-width:640px){.grid{grid-template-columns:1fr} .hero h1{font-size:22px}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:7px;transition:transform .08s,border-color .12s}
 .card:hover{transform:translateY(-1px);border-color:#3a4d3e}
 .card.leaderG{border-left:3px solid var(--leader)}
@@ -71,8 +74,8 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 .pill.leaderI{background:rgba(94,214,255,.14);color:var(--leaderIndo);border-color:rgba(94,214,255,.3)}
 .pill.dim{background:rgba(148,163,184,.1);color:var(--muted);border-color:var(--line)}
 .share{margin-left:auto;display:flex;gap:6px;align-items:center}
-.share b{font-size:13px;color:var(--accent);background:rgba(124,255,139,.12);border:1px solid rgba(124,255,139,.2);padding:3px 8px;border-radius:999px}
-.share b.indo{color:var(--leaderIndo);background:rgba(94,214,255,.12);border-color:rgba(94,214,255,.2)}
+.share b{font-size:16px;color:var(--accent);background:rgba(124,255,139,.12);border:1px solid rgba(124,255,139,.25);padding:4px 10px;border-radius:999px}
+.share b.indo{color:var(--leaderIndo);background:rgba(94,214,255,.12);border-color:rgba(94,214,255,.25)}
 .card h3{font-size:14.5px;line-height:1.25}
 .provider{font-size:12px;color:var(--muted)}
 .kpis{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:2px}
@@ -80,20 +83,22 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 .kpi span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;display:block}
 .kpi b{font-size:12px;color:var(--text)}
 .cite{font-size:10.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:6px;margin-top:2px}
-.cite em{font-style:normal;color:#a8c2ad}
+.cite a{color:var(--muted);text-decoration:underline}
 .desc{font-size:12.5px;color:#c8d8c8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .meta{display:flex;gap:6px;flex-wrap:wrap}
 .meta span{font-size:11px;background:var(--chip);border:1px solid var(--line);padding:3px 7px;border-radius:999px;color:var(--muted)}
 .meta span.abs{color:var(--accent);border-color:rgba(124,255,139,.2)}
-.actions{display:flex;gap:8px;margin-top:auto;padding-top:4px}
-.btn{flex:1;text-align:center;padding:8px 10px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid var(--line)}
+.actions{display:flex;gap:6px;margin-top:auto;padding-top:4px;flex-wrap:wrap}
+.btn{flex:1;min-width:90px;text-align:center;padding:8px 8px;border-radius:999px;font-size:11.5px;font-weight:700;border:1px solid var(--line)}
 .btn.primary{background:var(--accent);color:#0d1110;border-color:var(--accent)}
+.btn.blue{background:var(--leaderIndo);color:#0d1110;border-color:var(--leaderIndo)}
 .btn.ghost{background:transparent;color:var(--muted)}
+.btn.ghost:hover{color:var(--text)}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tags i{font-style:normal;font-size:10px;color:var(--muted);background:rgba(255,255,255,.04);padding:2px 6px;border-radius:999px;border:1px solid rgba(255,255,255,.06)}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:28px;border:1px dashed var(--line);border-radius:16px;background:rgba(255,255,255,.02)}
 .section-head{max-width:1180px;margin:18px auto 0;padding:0 16px;display:flex;align-items:center;gap:10px}
-.section-head h2{font-size:14px;letter-spacing:.5px;text-transform:uppercase}
+.section-head h2{font-size:13px;letter-spacing:.5px;text-transform:uppercase}
 .section-head .line{flex:1;height:1px;background:var(--line)}
 .foot{max-width:1180px;margin:0 auto;padding:0 16px 30px;color:var(--muted);font-size:11.5px;line-height:1.6}
 .foot a{color:var(--muted);text-decoration:underline}
@@ -105,48 +110,54 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 <div class="nav"><div class="navin">
   <div class="logo">🥩 PAD<span>DRIP</span> LEADER</div>
   <span class="badge" id="updated">loading…</span>
-  <div class="navlinks"><a href="#global">Global</a><a href="#indo">Indonesia</a><a href="#" id="exportBtn">Export JSON</a></div>
+  <div class="navlinks"><a href="#charts">Chart %</a><a href="#" id="exportBtn">Export JSON</a></div>
 </div></div>
 
 <div class="hero">
-  <h1>Market Leader <em>pad absorbent</em> penyerap drip daging — data valid pangsa pasar</h1>
-  <p class="sub"><strong>Fokus khusus Market Leader</strong> — dipisah <strong>Leader Global (sedunia)</strong> & <strong>Leader Indonesia</strong>. Setiap kartu tampilkan <strong>share %</strong>, <strong>revenue estimasi</strong>, <strong>volume pcs/tahun</strong> + sumber. Challenger/Follower/Nicher tetap ada sebagai konteks di bawah. Harga per pcs Indonesia (grosir MOQ), kapasitas serap ml/m².</p>
-  <div class="notice"><b>⚠️ Disclaimer data:</b> angka share/revenue/volume adalah <b>estimasi segmen soaker/drip pad daging saja</b> (bukan total packaging), dikompilasi dari annual report, market report (Mordor/MarketsandMarkets 2024), import BPS & observasi marketplace. Bukan angka audit. Gunakan untuk mapping & komparasi, bukan laporan keuangan resmi. Sumber dicantum tiap kartu — klik sumber untuk verifikasi.</div>
+  <h1>Market Leader <em>pad absorbent</em> drip daging — presentase penguasaan pasar %</h1>
+  <p class="sub"><strong>Fokus Market Leader only</strong> — <strong>Leader Global (sedunia)</strong> & <strong>Leader Indonesia</strong>. Tiap kartu: <strong>presentase %</strong> besar, <strong>harga/pcs link langsung</strong>, revenue, volume, sumber valid. Chart donut + bar di bawah. Challenger/Nicher sebagai konteks.</p>
+  <div class="notice"><b>⚠️ Data valid:</b> presentase estimasi segmen soaker/drip pad daging saja (bukan total packaging), dari Mordor/MarketsandMarkets 2024 + annual report Sealed Air/Sirane/Cellcomb + BPS import + marketplace. Bukan audit resmi. Klik <em>Sumber</em> tiap kartu untuk verifikasi. Harga link langsung ke Shopee/Tokopedia/Alibaba.</div>
   <div class="stats" id="stats"></div>
 </div>
 
-<div class="panels">
-  <div class="panel" id="global">
-    <h3><span class="dot" style="background:var(--leader)"></span> Leader Global — Pangsa Pasar (Est. Pasar Global USD 1.35 Miliar, 2024)</h3>
-    <div class="meta">8 brand teratas kuasai ~70.4% pasar global. Sisanya fragmented (challenger China, private label).</div>
+<div class="charts" id="charts">
+  <div class="chartCard" id="globalPanel">
+    <h3><span class="dot" style="background:var(--leader)"></span> Leader Global — Pangsa Pasar (Est. USD 1.35 Miliar, 2024)</h3>
+    <div class="meta">8 brand kuasai 70.4% pasar global. Donut = proporsi; bar = ranking share.</div>
+    <div class="chartWrap">
+      <canvas id="donutGlobal" width="170" height="170"></canvas>
+      <div class="legend" id="legendGlobal"></div>
+    </div>
     <div class="bars" id="barsGlobal"></div>
-    <div class="legend2"><span>Sealed Air #1 dunia 21.4%</span><span>Novipax #2 14.7%</span><span>Sirane #1 Eropa</span><span>CR8 = 70.4%</span></div>
   </div>
-  <div class="panel" id="indo">
-    <h3><span class="dot" style="background:var(--leaderIndo)"></span> Leader Indonesia — Pangsa Pasar (Est. Pasar Indonesia Rp 420 Miliar, ~285 jt pcs, 2024)</h3>
-    <div class="meta">Primapack paling besar volume lokal 22.3%, Sealed Air resmi 18.7%. Import China/generic gabungan 17%.</div>
+  <div class="chartCard" id="indoPanel">
+    <h3><span class="dot" style="background:var(--leaderIndo)"></span> Leader Indonesia — Pangsa Pasar (Est. Rp 420 Miliar, ~285 jt pcs, 2024)</h3>
+    <div class="meta">Primapack 22.3% volume terbesar lokal. Donut = proporsi; bar = ranking share.</div>
+    <div class="chartWrap">
+      <canvas id="donutIndo" width="170" height="170"></canvas>
+      <div class="legend" id="legendIndo"></div>
+    </div>
     <div class="bars" id="barsIndo"></div>
-    <div class="legend2"><span>Primapack #1 volume lokal</span><span>Sealed Air #1 import resmi</span><span>Pasar Rp 420M / 285 jt pcs</span></div>
   </div>
 </div>
 
 <div class="controls">
   <div class="search">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input id="q" placeholder="Cari: Sealed Air, Primapack, Bekasi, SAP, 21.4%…">
+    <input id="q" placeholder="Cari: Sealed Air 21.4%, Primapack, Rp 120…">
   </div>
-  <select id="sort"><option value="share">Urut: Share tertinggi</option><option value="revenue">Revenue tertinggi</option><option value="price">Harga terendah</option><option value="absorb">Daya serap tertinggi</option><option value="title">Nama A-Z</option></select>
+  <select id="sort"><option value="share">Urut: Share % tertinggi</option><option value="revenue">Revenue tertinggi</option><option value="price">Harga terendah</option><option value="absorb">Daya serap tertinggi</option><option value="title">Nama A-Z</option></select>
 </div>
 <div class="controls" style="margin-top:8px"><div class="cats" id="cats"></div></div>
 
-<div class="section-head" id="leaderHead"><h2>⭐ Market Leader</h2><div class="line"></div><span style="font-size:11px;color:var(--muted)" id="leaderCount"></span></div>
+<div class="section-head"><h2>⭐ Market Leader — Global & Indonesia</h2><div class="line"></div><span style="font-size:11px;color:var(--muted)" id="leaderCount"></span></div>
 <div class="wrap"><div class="grid" id="gridLeader"></div></div>
 
-<div class="section-head"><h2>Konteks — Challenger / Follower / Nicher</h2><div class="line"></div></div>
+<div class="section-head"><h2>Konteks — Challenger / Nicher</h2><div class="line"></div></div>
 <div class="wrap"><div class="grid" id="gridRest"></div></div>
 
 <div class="foot">
-  <b>Metodologi:</b> Global: baseline Mordor Intelligence Food Absorbent Pads Market (USD 1.35B 2024) diluted ke soaker daging, cross-check annual report Sealed Air (Food Care), turnover Sirane/Cellcomb, capacity Novipax/McAirlaid's. Indonesia: estimasi bottom-up dari import BPS HS 3923, kapasitas pabrik lokal (Bekasi/Surabaya/Bandung), & GMV marketplace Shopee/Tokopedia 2024-2025. Share dibulatkan 1 desimal. Revenue = pcs × ASP. Update otomatis 6 jam (feed) + manual curated.<br>
+  <b>Metodologi:</b> Global baseline Mordor Food Absorbent Pads USD 1.35B 2024 diluted ke soaker daging, cross-check Sealed Air Food Care AR, turnover Sirane/Cellcomb, capacity Novipax/McAirlaid's. Indonesia bottom-up: import BPS HS 3923, kapasitas pabrik Bekasi/Surabaya/Bandung, GMV Shopee/Tokopedia 2024-25. Share dibulatkan 1 desimal. Revenue = pcs × ASP. Harga dari link yang dicantum (cek live).<br>
   Build: <span id="footUpd">—</span> · <a href="data.json" target="_blank">data.json</a> · <a href="https://github.com/aonagiworks/pad-absorbent-tracker" target="_blank">GitHub</a>
   <div class="src"><span>Sealed Air AR 2023</span><span>Mordor Intelligence 2024</span><span>MarketsandMarkets 2024</span><span>BPS Import 2024</span><span>Marketplace 2024-25</span><span>Sirane/Cellcomb accounts</span></div>
 </div>
@@ -156,29 +167,55 @@ function esc(s){var d=document.createElement('div');d.textContent=s==null?'':Str
 var CATS=['Semua Leader','Market Leader Global','Market Leader Indonesia'];
 var active='Semua Leader';
 var DATA=[];
+var COLORS_G=['#7CFF8B','#3DD68C','#2ec27a','#1a9e66','#1a7a52','#145a3e','#0f3d2b','#0a261c'];
+var COLORS_I=['#5ED6FF','#38bdf8','#0ea5e9','#0284c7','#0369a1','#075985','#0c4a6e','#082f49'];
 
 function shareNum(s){ var m=String(s).match(/([\d.]+)/); return m?parseFloat(m[1]):-1; }
 function priceNum(p){ var m=String(p).match(/(\d+)/); return m?parseInt(m[1],10):9999; }
 function absorbNum(a){ var m=String(a).match(/(\d+)\s*-\s*(\d+)/); if(m) return parseInt(m[2],10); var m2=String(a).match(/(\d+)/); return m2?parseInt(m2[1],10):0; }
-function revenueNum(r){
-  // USD 289 jt -> 289, Rp 93 Miliar -> 93, normalize rough: USD*15000 ~ Rp
-  var s=String(r);
-  var m=s.match(/([\d.]+)/);
-  if(!m) return -1;
-  var v=parseFloat(m[1]);
-  if(s.indexOf('USD')!==-1) v = v * 15; // scale USD to Rp miliar equivalent for sorting
-  return v;
+function revenueNum(r){ var s=String(r); var m=s.match(/([\d.]+)/); if(!m) return -1; var v=parseFloat(m[1]); if(s.indexOf('USD')!==-1) v=v*15; return v; }
+
+function drawDonut(canvasId, items, colors){
+  var c=document.getElementById(canvasId);
+  if(!c) return;
+  var ctx=c.getContext('2d');
+  var dpr=window.devicePixelRatio||1;
+  var size=170;
+  c.width=size*dpr; c.height=size*dpr; c.style.width=size+'px'; c.style.height=size+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,size,size);
+  var cx=size/2, cy=size/2, R=68, r=42;
+  var total=items.reduce(function(s,x){return s+shareNum(x.share);},0);
+  // background ring
+  ctx.beginPath(); ctx.arc(cx,cy,R,0,Math.PI*2); ctx.arc(cx,cy,r,0,Math.PI*2,true);
+  ctx.fillStyle='#1e2a21'; ctx.fill();
+  var start=-Math.PI/2;
+  items.forEach(function(x,i){
+    var pct=shareNum(x.share);
+    var ang = total? (pct/total)*Math.PI*2 : 0;
+    ctx.beginPath();
+    ctx.moveTo(cx + Math.cos(start)*r, cy + Math.sin(start)*r);
+    ctx.lineTo(cx + Math.cos(start)*R, cy + Math.sin(start)*R);
+    ctx.arc(cx,cy,R,start,start+ang);
+    ctx.lineTo(cx + Math.cos(start+ang)*r, cy + Math.sin(start+ang)*r);
+    ctx.arc(cx,cy,r,start+ang,start,true);
+    ctx.closePath();
+    ctx.fillStyle=colors[i%colors.length];
+    ctx.fill();
+    start+=ang;
+  });
+  // center text
+  ctx.fillStyle='#e6f0e8'; ctx.font='800 13px Inter,system-ui,sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+  ctx.fillText(total.toFixed(1)+'%',cx,cy-6);
+  ctx.fillStyle='#92a99a'; ctx.font='10px Inter,system-ui,sans-serif';
+  ctx.fillText('dari total',cx,cy+8);
 }
-function catClass(c){
-  if(c==='Market Leader Global') return 'leaderG';
-  if(c==='Market Leader Indonesia') return 'leaderI';
-  return 'all';
-}
+
 function buildCats(){
   var el=document.getElementById('cats');
   el.innerHTML=CATS.map(function(c){
-    var on = active===c ? ' on '+ (c==='Semua Leader'?'all':catClass(c)) : '';
-    var cls = c==='Semua Leader'?'all':catClass(c);
+    var on = active===c ? ' on '+(c==='Semua Leader'?'all':(c==='Market Leader Global'?'leaderG':'leaderI')) : '';
+    var cls = c==='Semua Leader'?'all':(c==='Market Leader Global'?'leaderG':'leaderI');
     return '<span class="cat'+on+' '+cls+'" data-cat="'+esc(c)+'">'+esc(c)+'</span>';
   }).join('');
   el.querySelectorAll('.cat').forEach(function(n){
@@ -187,14 +224,14 @@ function buildCats(){
 }
 function cardHTML(x){
   var isG = x.category==='Market Leader Global';
-  var cls = isG ? 'leaderG' : 'leaderI';
   var pillCls = isG ? 'leaderG' : 'leaderI';
   var shareCls = isG ? '' : 'indo';
   var pillLabel = isG ? 'LEADER GLOBAL' : 'LEADER INDONESIA';
-  var shareVal = x.share && x.share!=='—' ? x.share : '—';
   var tags=(x.tags||[]).map(function(t){return '<i>#'+esc(t)+'</i>';}).join('');
-  return '<div class="card '+cls+'">'
-    +'<div class="top"><span class="pill '+pillCls+'">'+pillLabel+'</span><span class="share"><b class="'+shareCls+'">'+esc(shareVal)+'</b></span></div>'
+  var citUrl = x.citation_url || x.url;
+  var priceUrl = x.price_url || x.url;
+  return '<div class="card '+(isG?'leaderG':'leaderI')+'">'
+    +'<div class="top"><span class="pill '+pillCls+'">'+pillLabel+'</span><span class="share"><b class="'+shareCls+'">'+esc(x.share||'—')+'</b></span></div>'
     +'<h3>'+esc(x.title)+'</h3>'
     +'<div class="provider">'+esc(x.provider)+' · '+esc(x.type)+'</div>'
     +'<div class="kpis">'
@@ -206,19 +243,21 @@ function cardHTML(x){
     +'<div class="meta"><span class="abs">💧 '+esc(x.absorb)+'</span><span>'+esc(x.type)+'</span></div>'
     +'<div class="desc">'+esc(x.desc)+'</div>'
     +'<div class="tags">'+tags+'</div>'
-    +'<div class="cite">Sumber: <em>'+esc(x.citation||x.source||'—')+'</em></div>'
-    +'<div class="actions"><a class="btn primary" href="'+esc(x.url)+'" target="_blank" rel="noopener">Lihat produk</a><a class="btn ghost" href="https://www.google.com/search?q='+encodeURIComponent(x.title+' '+x.provider)+'" target="_blank">Cari harga</a></div>'
+    +'<div class="cite">Sumber: <a href="'+esc(citUrl)+'" target="_blank" rel="noopener">'+esc(x.citation||x.source||'—')+'</a></div>'
+    +'<div class="actions"><a class="btn '+(isG?'primary':'blue')+'" href="'+esc(priceUrl)+'" target="_blank" rel="noopener">💰 Cek Harga</a><a class="btn ghost" href="'+esc(x.url)+'" target="_blank">Produk</a></div>'
     +'</div>';
 }
 function restCard(x){
+  var citUrl = x.citation_url || x.url;
+  var priceUrl = x.price_url || x.url;
   return '<div class="card" style="opacity:.92">'
     +'<div class="top"><span class="pill dim">'+esc(x.category)+'</span><span style="margin-left:auto;font-size:11px;color:var(--muted)">'+esc(x.share||'')+'</span></div>'
     +'<h3>'+esc(x.title)+'</h3>'
     +'<div class="provider">'+esc(x.provider)+' · '+esc(x.type)+'</div>'
     +'<div class="meta"><span class="abs">💧 '+esc(x.absorb)+'</span><span>'+esc(x.price)+'</span></div>'
     +'<div class="desc">'+esc(x.desc)+'</div>'
-    +'<div class="cite">Sumber: <em>'+esc(x.citation||x.source||'—')+'</em></div>'
-    +'<div class="actions"><a class="btn ghost" href="'+esc(x.url)+'" target="_blank">Lihat produk</a></div>'
+    +'<div class="cite">Sumber: <a href="'+esc(citUrl)+'" target="_blank">'+esc(x.citation||x.source||'—')+'</a></div>'
+    +'<div class="actions"><a class="btn ghost" href="'+esc(priceUrl)+'" target="_blank">💰 Cek Harga</a><a class="btn ghost" href="'+esc(x.url)+'" target="_blank">Produk</a></div>'
     +'</div>';
 }
 function render(){
@@ -226,7 +265,6 @@ function render(){
   var sort=document.getElementById('sort').value;
   var leaders = DATA.filter(function(x){ return x.category==='Market Leader Global' || x.category==='Market Leader Indonesia'; });
   var rest = DATA.filter(function(x){ return !(x.category==='Market Leader Global' || x.category==='Market Leader Indonesia'); });
-  // filter by active
   var filteredLeaders = leaders.filter(function(x){
     if(active==='Market Leader Global' && x.category!=='Market Leader Global') return false;
     if(active==='Market Leader Indonesia' && x.category!=='Market Leader Indonesia') return false;
@@ -239,36 +277,40 @@ function render(){
     var hay=[x.title,x.provider,x.category,x.type,x.absorb,x.price,x.desc].join(' ').toLowerCase();
     return hay.indexOf(q)!==-1;
   });
-  // sort leaders
   if(sort==='share') filteredLeaders.sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
   else if(sort==='revenue') filteredLeaders.sort(function(a,b){return revenueNum(b.revenue)-revenueNum(a.revenue);});
   else if(sort==='price') filteredLeaders.sort(function(a,b){return priceNum(a.price)-priceNum(b.price);});
   else if(sort==='absorb') filteredLeaders.sort(function(a,b){return absorbNum(b.absorb)-absorbNum(a.absorb);});
   else if(sort==='title') filteredLeaders.sort(function(a,b){return a.title.localeCompare(b.title);});
   else filteredLeaders.sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
-
   document.getElementById('leaderCount').textContent = filteredLeaders.length + ' leader';
   var gL=document.getElementById('gridLeader');
   if(!filteredLeaders.length) gL.innerHTML='<div class="empty">Tidak ada leader untuk filter ini.</div>';
   else gL.innerHTML=filteredLeaders.map(cardHTML).join('');
-
   var gR=document.getElementById('gridRest');
-  // hide rest section when searching leader-only? keep visible but filtered
-  if(!filteredRest.length) gR.innerHTML='<div class="empty">Tidak ada data konteks lain untuk filter ini.</div>';
+  if(!filteredRest.length) gR.innerHTML='<div class="empty">Tidak ada data konteks.</div>';
   else gR.innerHTML=filteredRest.map(restCard).join('');
 }
-function renderBars(){
+function renderBarsAndLegends(){
   var leadersG = DATA.filter(function(x){return x.category==='Market Leader Global';}).sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
   var leadersI = DATA.filter(function(x){return x.category==='Market Leader Indonesia';}).sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
+  drawDonut('donutGlobal', leadersG, COLORS_G);
+  drawDonut('donutIndo', leadersI, COLORS_I);
+  // legends
+  document.getElementById('legendGlobal').innerHTML = leadersG.map(function(x,i){
+    return '<div class="legItem"><span class="legColor" style="background:'+COLORS_G[i%COLORS_G.length]+'"></span><span class="legName">'+esc(x.title.split(' — ')[0].split(' - ')[0])+'</span><span class="legPct">'+esc(x.share)+'</span></div>';
+  }).join('');
+  document.getElementById('legendIndo').innerHTML = leadersI.map(function(x,i){
+    return '<div class="legItem"><span class="legColor" style="background:'+COLORS_I[i%COLORS_I.length]+'"></span><span class="legName">'+esc(x.title.split(' — ')[0])+'</span><span class="legPct">'+esc(x.share)+'</span></div>';
+  }).join('');
   var maxG = Math.max.apply(null, leadersG.map(function(x){return shareNum(x.share)||0;})) || 22;
   var maxI = Math.max.apply(null, leadersI.map(function(x){return shareNum(x.share)||0;})) || 23;
   function barRow(x,max,color){
     var pct=shareNum(x.share)||0;
     var w = max? (pct/max*100):0;
-    // short label
     var label = x.title.split(' — ')[0].split(' - ')[0];
-    if(label.length>18) label=label.slice(0,18)+'…';
-    return '<div><div class="bar-row"><span class="bar-label">'+esc(label)+'</span><div class="bar-track"><div class="bar-fill" style="width:'+w+'%;background:'+color+'"></div></div><span class="bar-pct">'+esc(x.share)+'</span></div><div class="bar-sub">'+esc(x.revenue||'')+'</div></div>';
+    if(label.length>16) label=label.slice(0,16)+'…';
+    return '<div class="bar-row"><span class="bar-label">'+esc(label)+'</span><div class="bar-track"><div class="bar-fill" style="width:'+w+'%;background:'+color+'"></div></div><span class="bar-pct">'+esc(x.share)+'</span></div>';
   }
   document.getElementById('barsGlobal').innerHTML = leadersG.map(function(x){return barRow(x,maxG,'linear-gradient(90deg,#7CFF8B,#3DD68C)');}).join('');
   document.getElementById('barsIndo').innerHTML = leadersI.map(function(x){return barRow(x,maxI,'linear-gradient(90deg,#5ED6FF,#38bdf8)');}).join('');
@@ -278,7 +320,7 @@ fetch('data.json?v='+Date.now()).then(function(r){return r.json();}).then(functi
   DATA=j.offers||j.courses||[];
   var upd=j.updated_at||'';
   var dstr=''; try{ dstr=new Date(upd).toLocaleString('id-ID',{dateStyle:'medium',timeStyle:'short'});}catch(e){dstr=upd;}
-  document.getElementById('updated').textContent='Update '+dstr+' · '+j.total+' item (leader fokus)';
+  document.getElementById('updated').textContent='Update '+dstr+' · '+j.total+' item';
   document.getElementById('footUpd').textContent=dstr;
   var leaders = DATA.filter(function(x){return x.category.indexOf('Market Leader')===0;});
   var g = leaders.filter(function(x){return x.category==='Market Leader Global';}).length;
@@ -290,7 +332,7 @@ fetch('data.json?v='+Date.now()).then(function(r){return r.json();}).then(functi
     '<div class="stat"><b>USD 1.35B</b><span>Pasar global est.</span></div>',
     '<div class="stat"><b>Rp 420M</b><span>Pasar Indo est.</span></div>'
   ].join('');
-  renderBars();
+  renderBarsAndLegends();
   buildCats(); render();
   document.getElementById('q').addEventListener('input',render);
   document.getElementById('sort').addEventListener('change',render);

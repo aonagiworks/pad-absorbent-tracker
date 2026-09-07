@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T01:35:12.768898+00:00",
-  "total": 23,
-  "curated": 23,
+  "updated_at": "2026-09-07T01:39:27.534270+00:00",
+  "total": 19,
+  "curated": 19,
   "from_feeds": 0,
   "offers": [
     {
@@ -12,15 +12,16 @@
       "type": "PE + SAP",
       "absorb": "700-1000ml/m²",
       "price": "Rp 180-350 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/cryovac-dri-loc-pad.html",
       "share": "21.4%",
       "revenue": "USD 289 jt/tahun",
       "volume": "~780 jt pcs/tahun",
-      "citation": "Sealed Air AR 2023 + Mordor 2024",
+      "citation": "Sealed Air AR 2023 + Mordor Intelligence 2024",
+      "citation_url": "https://ir.sealedair.com/financials/annual-reports/default.aspx",
       "url": "https://www.sealedair.com/products/food-packaging/absorbent-pads",
-      "desc": "#1 dunia. Kriovac Dri-Loc kuasai 1/5 pasar global. Patent SAP + PE perforated. Supply global termasuk Indonesia via distributor resmi Jakarta/Surabaya.",
+      "desc": "#1 dunia. Kuasai 1/5 pasar global. Patent SAP + PE perforated. Supply global termasuk Indonesia via distributor Jakarta/Surabaya.",
       "tags": [
         "global-1",
-        "no1",
         "SAP"
       ],
       "source": "curated"
@@ -33,16 +34,17 @@
       "type": "Airlaid + SAP",
       "absorb": "800-1200ml/m²",
       "price": "Rp 200-400 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/novipax-superabsorb-pad.html",
       "share": "14.7%",
       "revenue": "USD 198 jt/tahun",
       "volume": "~520 jt pcs/tahun",
       "citation": "Novipax capacity report 2023",
+      "citation_url": "https://www.novipax.com/products/meat-poultry-pads",
       "url": "https://www.novipax.com/products/meat-poultry-pads",
-      "desc": "#2 dunia, #1 USA. Supply Walmart, Costco, Tyson Foods. 4 plant USA. Varian black pad daging merah, kapasitas jumbo.",
+      "desc": "#2 dunia, #1 USA. Supply Walmart, Costco, Tyson. 4 plant USA. Varian black pad daging merah, kapasitas jumbo.",
       "tags": [
         "global-2",
-        "USA",
-        "airlaid"
+        "USA"
       ],
       "source": "curated"
     },
@@ -54,16 +56,17 @@
       "type": "Cellulose + SAP",
       "absorb": "600-900ml/m²",
       "price": "Rp 170-320 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/sirane-dri-fresh-pad.html",
       "share": "9.2%",
       "revenue": "USD 124 jt/tahun",
       "volume": "~340 jt pcs/tahun",
-      "citation": "Sirane Group turnover 2023 £92M",
+      "citation": "Sirane Group turnover 2023 £92M + Mordor 2024",
+      "citation_url": "https://www.sirane.com/food-packaging/absorbent-pads/",
       "url": "https://www.sirane.com/food-packaging/absorbent-pads/",
-      "desc": "#3 dunia, #1 Eropa. BRC/IOP certified. Supply Tesco, M&S, Carrefour, Sainsbury. Punya line compostable Earth Packaging.",
+      "desc": "#3 dunia, #1 Eropa. BRC/IOP certified. Supply Tesco, M&S, Carrefour. Punya line compostable Earth Packaging.",
       "tags": [
         "global-3",
-        "europe",
-        "BRC"
+        "europe"
       ],
       "source": "curated"
     },
@@ -75,16 +78,17 @@
       "type": "Airlaid Dry-Means",
       "absorb": "750-1100ml/m²",
       "price": "Rp 190-380 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/mcairlaids-optidri-pad.html",
       "share": "8.5%",
       "revenue": "USD 115 jt/tahun",
       "volume": "~310 jt pcs/tahun",
       "citation": "McAirlaid's company profile 2024",
+      "citation_url": "https://www.mcairlaids.com/food-pads",
       "url": "https://www.mcairlaids.com/food-pads",
-      "desc": "#4 dunia. Teknologi Dry-Means (airlaid tanpa fluff) — tipis tapi serap tinggi. OEKO-TEX. Supply Lidl, Aldi, Metro.",
+      "desc": "#4 dunia. Teknologi Dry-Means airlaid tanpa fluff — tipis tapi serap tinggi. OEKO-TEX. Supply Lidl, Aldi, Metro.",
       "tags": [
         "global-4",
-        "jerman",
-        "OEKO-TEX"
+        "jerman"
       ],
       "source": "curated"
     },
@@ -96,12 +100,14 @@
       "type": "Cellulose + PE",
       "absorb": "500-800ml/m²",
       "price": "Rp 150-300 /pcs",
+      "price_url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
       "share": "5.1%",
       "revenue": "USD 69 jt/tahun",
       "volume": "~210 jt pcs/tahun",
-      "citation": "Elliott accounts 2023",
+      "citation": "Elliott accounts Companies House 2023",
+      "citation_url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
       "url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
-      "desc": "#5 dunia. 40+ tahun, range terluas 60x80mm s/d 200x300mm. PE backing anti-bocor, food contact EU 1935/2004.",
+      "desc": "#5 dunia. 40+ tahun, range terluas 60x80mm s/d 200x300mm. PE backing anti-bocor, EU 1935/2004.",
       "tags": [
         "global-5",
         "UK"
@@ -116,16 +122,17 @@
       "type": "Recycled Cellulose + SAP",
       "absorb": "600-950ml/m²",
       "price": "Rp 160-310 /pcs",
+      "price_url": "https://www.paperpak.ca/food-pads",
       "share": "4.3%",
       "revenue": "USD 58 jt/tahun",
       "volume": "~175 jt pcs/tahun",
       "citation": "PaperPak capacity 2023",
+      "citation_url": "https://www.paperpak.ca/food-pads",
       "url": "https://www.paperpak.ca/food-pads",
-      "desc": "#6 dunia, #1 Kanada. 100% recycled cellulose + SAP food-grade. Supply Sobeys, Costco Canada. Fokus sustainable.",
+      "desc": "#6 dunia, #1 Kanada. 100% recycled cellulose + SAP food-grade. Supply Sobeys, Costco Canada.",
       "tags": [
         "global-6",
-        "kanada",
-        "recycled"
+        "kanada"
       ],
       "source": "curated"
     },
@@ -137,12 +144,14 @@
       "type": "PE Coated + SAP (Heat-seal)",
       "absorb": "650-900ml/m²",
       "price": "Rp 150-290 /pcs",
+      "price_url": "https://www.thermasorb.com",
       "share": "3.8%",
       "revenue": "USD 51 jt/tahun",
       "volume": "~145 jt pcs/tahun",
       "citation": "MarketsandMarkets 2024 share table",
+      "citation_url": "https://www.thermasorb.com",
       "url": "https://www.thermasorb.com",
-      "desc": "Top 7 global. Heat-seal edge anti-bocor samping — beda dari leader lain. Ambil share Novipax di midwest USA.",
+      "desc": "Top 7 global. Heat-seal edge anti-bocor samping. Ambil share Novipax di midwest USA.",
       "tags": [
         "global-7",
         "heat-seal"
@@ -157,12 +166,14 @@
       "type": "Cellulose + SAP",
       "absorb": "550-850ml/m²",
       "price": "Rp 140-280 /pcs",
+      "price_url": "https://www.cellcomb.com/absorbent-pads",
       "share": "3.4%",
       "revenue": "USD 46 jt/tahun",
       "volume": "~130 jt pcs/tahun",
       "citation": "Cellcomb AB annual 2023 SEK 480M",
+      "citation_url": "https://www.cellcomb.com/absorbent-pads",
       "url": "https://www.cellcomb.com/absorbent-pads",
-      "desc": "Top 8 global, #2 Eropa. Harga 15-20% bawah Sirane, kualitas setara. Supply ICA, Coop. Varian antibakteri.",
+      "desc": "Top 8 global, #2 Eropa. Harga 15-20% bawah Sirane, kualitas setara. Supply ICA, Coop.",
       "tags": [
         "global-8",
         "sweden"
@@ -177,16 +188,17 @@
       "type": "PE + SAP Import Resmi",
       "absorb": "700-1000ml/m²",
       "price": "Rp 190-360 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=cryovac%20dri-loc%20soaker%20pad",
       "share": "18.7%",
       "revenue": "Rp 78 Miliar/tahun",
       "volume": "~53 jt pcs/tahun",
       "citation": "Import BPS HS 3923 + distrib resmi 2024",
+      "citation_url": "https://www.sealedair.com/id",
       "url": "https://www.sealedair.com/id",
-      "desc": "#1 Indonesia jalur import resmi. Stok Jakarta & Surabaya. Supply Super Indo, Hypermart, Ranch Market, Lotte, AEON. BPOM food-grade, MOQ 5k.",
+      "desc": "#1 Indonesia jalur import resmi. Stok Jakarta & Surabaya. Supply Super Indo, Hypermart, Ranch Market, Lotte, AEON. BPOM food-grade.",
       "tags": [
         "indo-1",
-        "resmi",
-        "retail-modern"
+        "resmi"
       ],
       "source": "curated"
     },
@@ -198,16 +210,17 @@
       "type": "Airlaid + SAP Lokal",
       "absorb": "600-850ml/m²",
       "price": "Rp 120-220 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
       "share": "22.3%",
       "revenue": "Rp 93 Miliar/tahun",
       "volume": "~64 jt pcs/tahun",
       "citation": "Kapasitas pabrik 12jt/bulan + RPA CP/Japfa",
+      "citation_url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
       "url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
-      "desc": "#1 volume lokal, #1 total Indonesia. Pabrik Bekasi 12jt pcs/bulan. Supply RPA Charoen Pokphand, Japfa, Malindo. Harga 30% bawah import.",
+      "desc": "#1 volume lokal, #1 total Indonesia. Pabrik Bekasi 12jt pcs/bulan. Supply RPA Charoen Pokphand, Japfa, Malindo. 30% bawah import.",
       "tags": [
         "indo-1-volume",
-        "bekasi",
-        "RPA"
+        "bekasi"
       ],
       "source": "curated"
     },
@@ -219,16 +232,17 @@
       "type": "Tissue + SAP + PE",
       "absorb": "500-750ml/m²",
       "price": "Rp 95-180 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
       "share": "14.1%",
       "revenue": "Rp 59 Miliar/tahun",
       "volume": "~40 jt pcs/tahun",
-      "citation": "Marketplace data 10k+ terjual 2024-2025",
+      "citation": "Marketplace 10k+ terjual 2024-2025",
+      "citation_url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
       "url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
       "desc": "#3 Indonesia, #1 marketplace. Shopee/Tokopedia 4.9★ 10k+ terjual. Target UMKM, butcher, resto. Ecer 50pcs s/d grosir 5k.",
       "tags": [
         "indo-3",
-        "shopee-1",
-        "UMKM"
+        "shopee-1"
       ],
       "source": "curated"
     },
@@ -240,16 +254,17 @@
       "type": "Cellulose + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 110-200 /pcs",
+      "price_url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
       "share": "12.6%",
       "revenue": "Rp 53 Miliar/tahun",
       "volume": "~36 jt pcs/tahun",
       "citation": "Distribusi Jatim-Bali + Indomaret fresh",
+      "citation_url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
       "url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
-      "desc": "#4 Indonesia, #1 Jatim-Bali. Pabrik Surabaya. Dominan ayam potong & ikan segar. Supply Indomaret fresh, Super Indo Jatim. MOQ 2k.",
+      "desc": "#4 Indonesia, #1 Jatim-Bali. Pabrik Surabaya. Dominan ayam potong & ikan segar. Supply Indomaret fresh, Super Indo Jatim.",
       "tags": [
         "indo-4",
-        "surabaya",
-        "jatim"
+        "surabaya"
       ],
       "source": "curated"
     },
@@ -261,16 +276,17 @@
       "type": "Nonwoven + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 115-210 /pcs",
+      "price_url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
       "share": "8.9%",
       "revenue": "Rp 37 Miliar/tahun",
       "volume": "~25 jt pcs/tahun",
       "citation": "Horeca + export Timor Leste 2024",
+      "citation_url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
       "url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
       "desc": "#5 Indonesia. Supply Horeca hotel (Ismaya, Boga Group) + export Timor Leste. Varian hitam daging sapi premium.",
       "tags": [
         "indo-5",
-        "tangerang",
-        "horeca"
+        "tangerang"
       ],
       "source": "curated"
     },
@@ -282,16 +298,17 @@
       "type": "Fluff + PE Lokal",
       "absorb": "400-600ml/m²",
       "price": "Rp 70-130 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
       "share": "6.4%",
       "revenue": "Rp 27 Miliar/tahun",
       "volume": "~18 jt pcs/tahun",
       "citation": "Pasar tradisional + Grosir Senen",
+      "citation_url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
       "url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
-      "desc": "#6 Indonesia. Fokus pasar tradisional, Grosir Senen, pedagang ayam potong. Tanpa SAP — harga murah Rp 70/pcs, MOQ 1k.",
+      "desc": "#6 Indonesia. Fokus pasar tradisional, Grosir Senen, pedagang ayam potong. Tanpa SAP — harga murah Rp 70/pcs.",
       "tags": [
         "indo-6",
-        "tradisional",
-        "murah"
+        "tradisional"
       ],
       "source": "curated"
     },
@@ -303,12 +320,14 @@
       "type": "Mixed Import",
       "absorb": "300-650ml/m²",
       "price": "Rp 50-120 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
       "share": "17.0%",
       "revenue": "Rp 71 Miliar/tahun",
       "volume": "~49 jt pcs/tahun",
       "citation": "BPS import China 2024 + Alibaba",
+      "citation_url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
       "url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
-      "desc": "Gabungan import China (Qidong, Ideal Goal) + generic. Harga paling murah, kualitas variatif. Wajib COA & migration test sebelum bulk.",
+      "desc": "Gabungan import China (Qidong, Ideal Goal) + generic. Harga paling murah, kualitas variatif. Wajib COA & migration test.",
       "tags": [
         "import-china",
         "generic"
@@ -323,16 +342,17 @@
       "type": "SAP + Nonwoven + PE",
       "absorb": "600-950ml/m²",
       "price": "Rp 90-180 /pcs",
+      "price_url": "https://www.idealgoal.cn/meat-pad",
       "share": "2.1% global",
       "revenue": "USD 28 jt",
       "volume": "—",
       "citation": "Export China 2023",
+      "citation_url": "https://www.idealgoal.cn/meat-pad",
       "url": "https://www.idealgoal.cn/meat-pad",
-      "desc": "Challenger China terbesar. Harga 40-50% bawah leader, kapasitas setara. OEM untuk brand Eropa. MOQ 50k.",
+      "desc": "Challenger China terbesar. Harga 40-50% bawah leader, OEM untuk brand Eropa. MOQ 50k.",
       "tags": [
         "challenger",
-        "china",
-        "OEM"
+        "china"
       ],
       "source": "curated"
     },
@@ -344,74 +364,17 @@
       "type": "SAP Composite",
       "absorb": "550-900ml/m²",
       "price": "Rp 85-170 /pcs",
+      "price_url": "https://www.qidongpack.com/absorbent-pad",
       "share": "1.8% global",
       "revenue": "USD 24 jt",
       "volume": "—",
       "citation": "Export China 2023",
+      "citation_url": "https://www.qidongpack.com/absorbent-pad",
       "url": "https://www.qidongpack.com/absorbent-pad",
-      "desc": "Challenger China spesialis export. Sudah masuk Indonesia via importir Jakarta. Warna hitam/putih custom.",
+      "desc": "Challenger China spesialis export. Sudah masuk Indonesia via importir Jakarta.",
       "tags": [
         "challenger",
         "china"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "f6ff81137884",
-      "title": "Cellcomb Absorber Pad",
-      "provider": "Cellcomb (Sweden)",
-      "category": "Market Challenger",
-      "type": "Cellulose + SAP",
-      "absorb": "550-850ml/m²",
-      "price": "Rp 140-280 /pcs",
-      "share": "—",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://www.cellcomb.com/absorbent-pads",
-      "desc": "Challenger Skandinavia (sudah masuk top 8 global di atas). Di pasar global dia leader, di segmen harga dia challenger Sirane.",
-      "tags": [
-        "challenger"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "5c0f99fd839f",
-      "title": "Dewi Pack Soaker Lokal",
-      "provider": "PT Dewi Pack (Indonesia)",
-      "category": "Market Follower",
-      "type": "Tissue + SAP + PE",
-      "absorb": "400-600ml/m²",
-      "price": "Rp 75-140 /pcs",
-      "share": "<2% Indo",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://shopee.co.id/search?keyword=pad%20absorbent%20daging",
-      "desc": "Follower lokal. Produksi Bandung/Surabaya, tissue+SAP impor, PE lokal. Jual Shopee/Tokopedia MOQ 1k.",
-      "tags": [
-        "follower",
-        "lokal"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "d560570efb07",
-      "title": "Tristar Packaging Pad",
-      "provider": "Tristar (India)",
-      "category": "Market Follower",
-      "type": "Fluff + PE",
-      "absorb": "350-600ml/m²",
-      "price": "Rp 70-130 /pcs",
-      "share": "—",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://www.tristarpackaging.in/soaker-pads",
-      "desc": "Follower India. Fluff pulp lokal, fokus domestik India & Timur Tengah.",
-      "tags": [
-        "follower",
-        "india"
       ],
       "source": "curated"
     },
@@ -423,36 +386,17 @@
       "type": "Compostable Cellulose",
       "absorb": "400-650ml/m²",
       "price": "Rp 220-420 /pcs",
+      "price_url": "https://www.sirane.com/earth-packaging/",
       "share": "0.6% global",
       "revenue": "USD 8 jt",
       "volume": "—",
       "citation": "Sirane 2023",
+      "citation_url": "https://www.sirane.com/earth-packaging/",
       "url": "https://www.sirane.com/earth-packaging/",
-      "desc": "Nicher eco. 100% compostable EN13432. Target organic meat & zero-waste retailer. Premium 30-40%.",
+      "desc": "Nicher eco. 100% compostable EN13432. Target organic & zero-waste retailer. Premium 30-40%.",
       "tags": [
         "nicher",
-        "compostable",
-        "eco"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "55b7f7750305",
-      "title": "Sealed Air rDri-Loc Recycle-Ready",
-      "provider": "Sealed Air - rDriLoc",
-      "category": "Market Nicher",
-      "type": "Recyclable PE + SAP",
-      "absorb": "600-850ml/m²",
-      "price": "Rp 200-380 /pcs",
-      "share": "—",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://www.sealedair.com/products/food-packaging/recycle-ready-pads",
-      "desc": "Nicher recycle-ready. Masuk stream PE recycling, jawab demand ESG Aldi/Carrefour.",
-      "tags": [
-        "nicher",
-        "recyclable"
+        "compostable"
       ],
       "source": "curated"
     },
@@ -464,16 +408,17 @@
       "type": "Charcoal + SAP",
       "absorb": "400-600ml/m²",
       "price": "Rp 260-480 /pcs",
+      "price_url": "https://www.tomi-jp.com/odor-pad",
       "share": "—",
       "revenue": "—",
       "volume": "—",
-      "citation": "—",
+      "citation": "TOMI JP",
+      "citation_url": "https://www.tomi-jp.com/odor-pad",
       "url": "https://www.tomi-jp.com/odor-pad",
       "desc": "Nicher Jepang charcoal + activated carbon serap bau amis. Untuk sashimi & wagyu premium.",
       "tags": [
         "nicher",
-        "charcoal",
-        "japan"
+        "charcoal"
       ],
       "source": "curated"
     }
@@ -487,15 +432,16 @@
       "type": "PE + SAP",
       "absorb": "700-1000ml/m²",
       "price": "Rp 180-350 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/cryovac-dri-loc-pad.html",
       "share": "21.4%",
       "revenue": "USD 289 jt/tahun",
       "volume": "~780 jt pcs/tahun",
-      "citation": "Sealed Air AR 2023 + Mordor 2024",
+      "citation": "Sealed Air AR 2023 + Mordor Intelligence 2024",
+      "citation_url": "https://ir.sealedair.com/financials/annual-reports/default.aspx",
       "url": "https://www.sealedair.com/products/food-packaging/absorbent-pads",
-      "desc": "#1 dunia. Kriovac Dri-Loc kuasai 1/5 pasar global. Patent SAP + PE perforated. Supply global termasuk Indonesia via distributor resmi Jakarta/Surabaya.",
+      "desc": "#1 dunia. Kuasai 1/5 pasar global. Patent SAP + PE perforated. Supply global termasuk Indonesia via distributor Jakarta/Surabaya.",
       "tags": [
         "global-1",
-        "no1",
         "SAP"
       ],
       "source": "curated"
@@ -508,16 +454,17 @@
       "type": "Airlaid + SAP",
       "absorb": "800-1200ml/m²",
       "price": "Rp 200-400 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/novipax-superabsorb-pad.html",
       "share": "14.7%",
       "revenue": "USD 198 jt/tahun",
       "volume": "~520 jt pcs/tahun",
       "citation": "Novipax capacity report 2023",
+      "citation_url": "https://www.novipax.com/products/meat-poultry-pads",
       "url": "https://www.novipax.com/products/meat-poultry-pads",
-      "desc": "#2 dunia, #1 USA. Supply Walmart, Costco, Tyson Foods. 4 plant USA. Varian black pad daging merah, kapasitas jumbo.",
+      "desc": "#2 dunia, #1 USA. Supply Walmart, Costco, Tyson. 4 plant USA. Varian black pad daging merah, kapasitas jumbo.",
       "tags": [
         "global-2",
-        "USA",
-        "airlaid"
+        "USA"
       ],
       "source": "curated"
     },
@@ -529,16 +476,17 @@
       "type": "Cellulose + SAP",
       "absorb": "600-900ml/m²",
       "price": "Rp 170-320 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/sirane-dri-fresh-pad.html",
       "share": "9.2%",
       "revenue": "USD 124 jt/tahun",
       "volume": "~340 jt pcs/tahun",
-      "citation": "Sirane Group turnover 2023 £92M",
+      "citation": "Sirane Group turnover 2023 £92M + Mordor 2024",
+      "citation_url": "https://www.sirane.com/food-packaging/absorbent-pads/",
       "url": "https://www.sirane.com/food-packaging/absorbent-pads/",
-      "desc": "#3 dunia, #1 Eropa. BRC/IOP certified. Supply Tesco, M&S, Carrefour, Sainsbury. Punya line compostable Earth Packaging.",
+      "desc": "#3 dunia, #1 Eropa. BRC/IOP certified. Supply Tesco, M&S, Carrefour. Punya line compostable Earth Packaging.",
       "tags": [
         "global-3",
-        "europe",
-        "BRC"
+        "europe"
       ],
       "source": "curated"
     },
@@ -550,16 +498,17 @@
       "type": "Airlaid Dry-Means",
       "absorb": "750-1100ml/m²",
       "price": "Rp 190-380 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/mcairlaids-optidri-pad.html",
       "share": "8.5%",
       "revenue": "USD 115 jt/tahun",
       "volume": "~310 jt pcs/tahun",
       "citation": "McAirlaid's company profile 2024",
+      "citation_url": "https://www.mcairlaids.com/food-pads",
       "url": "https://www.mcairlaids.com/food-pads",
-      "desc": "#4 dunia. Teknologi Dry-Means (airlaid tanpa fluff) — tipis tapi serap tinggi. OEKO-TEX. Supply Lidl, Aldi, Metro.",
+      "desc": "#4 dunia. Teknologi Dry-Means airlaid tanpa fluff — tipis tapi serap tinggi. OEKO-TEX. Supply Lidl, Aldi, Metro.",
       "tags": [
         "global-4",
-        "jerman",
-        "OEKO-TEX"
+        "jerman"
       ],
       "source": "curated"
     },
@@ -571,12 +520,14 @@
       "type": "Cellulose + PE",
       "absorb": "500-800ml/m²",
       "price": "Rp 150-300 /pcs",
+      "price_url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
       "share": "5.1%",
       "revenue": "USD 69 jt/tahun",
       "volume": "~210 jt pcs/tahun",
-      "citation": "Elliott accounts 2023",
+      "citation": "Elliott accounts Companies House 2023",
+      "citation_url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
       "url": "https://www.elliottabsorbents.co.uk/food-absorbent-pads",
-      "desc": "#5 dunia. 40+ tahun, range terluas 60x80mm s/d 200x300mm. PE backing anti-bocor, food contact EU 1935/2004.",
+      "desc": "#5 dunia. 40+ tahun, range terluas 60x80mm s/d 200x300mm. PE backing anti-bocor, EU 1935/2004.",
       "tags": [
         "global-5",
         "UK"
@@ -591,16 +542,17 @@
       "type": "Recycled Cellulose + SAP",
       "absorb": "600-950ml/m²",
       "price": "Rp 160-310 /pcs",
+      "price_url": "https://www.paperpak.ca/food-pads",
       "share": "4.3%",
       "revenue": "USD 58 jt/tahun",
       "volume": "~175 jt pcs/tahun",
       "citation": "PaperPak capacity 2023",
+      "citation_url": "https://www.paperpak.ca/food-pads",
       "url": "https://www.paperpak.ca/food-pads",
-      "desc": "#6 dunia, #1 Kanada. 100% recycled cellulose + SAP food-grade. Supply Sobeys, Costco Canada. Fokus sustainable.",
+      "desc": "#6 dunia, #1 Kanada. 100% recycled cellulose + SAP food-grade. Supply Sobeys, Costco Canada.",
       "tags": [
         "global-6",
-        "kanada",
-        "recycled"
+        "kanada"
       ],
       "source": "curated"
     },
@@ -612,12 +564,14 @@
       "type": "PE Coated + SAP (Heat-seal)",
       "absorb": "650-900ml/m²",
       "price": "Rp 150-290 /pcs",
+      "price_url": "https://www.thermasorb.com",
       "share": "3.8%",
       "revenue": "USD 51 jt/tahun",
       "volume": "~145 jt pcs/tahun",
       "citation": "MarketsandMarkets 2024 share table",
+      "citation_url": "https://www.thermasorb.com",
       "url": "https://www.thermasorb.com",
-      "desc": "Top 7 global. Heat-seal edge anti-bocor samping — beda dari leader lain. Ambil share Novipax di midwest USA.",
+      "desc": "Top 7 global. Heat-seal edge anti-bocor samping. Ambil share Novipax di midwest USA.",
       "tags": [
         "global-7",
         "heat-seal"
@@ -632,12 +586,14 @@
       "type": "Cellulose + SAP",
       "absorb": "550-850ml/m²",
       "price": "Rp 140-280 /pcs",
+      "price_url": "https://www.cellcomb.com/absorbent-pads",
       "share": "3.4%",
       "revenue": "USD 46 jt/tahun",
       "volume": "~130 jt pcs/tahun",
       "citation": "Cellcomb AB annual 2023 SEK 480M",
+      "citation_url": "https://www.cellcomb.com/absorbent-pads",
       "url": "https://www.cellcomb.com/absorbent-pads",
-      "desc": "Top 8 global, #2 Eropa. Harga 15-20% bawah Sirane, kualitas setara. Supply ICA, Coop. Varian antibakteri.",
+      "desc": "Top 8 global, #2 Eropa. Harga 15-20% bawah Sirane, kualitas setara. Supply ICA, Coop.",
       "tags": [
         "global-8",
         "sweden"
@@ -652,16 +608,17 @@
       "type": "PE + SAP Import Resmi",
       "absorb": "700-1000ml/m²",
       "price": "Rp 190-360 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=cryovac%20dri-loc%20soaker%20pad",
       "share": "18.7%",
       "revenue": "Rp 78 Miliar/tahun",
       "volume": "~53 jt pcs/tahun",
       "citation": "Import BPS HS 3923 + distrib resmi 2024",
+      "citation_url": "https://www.sealedair.com/id",
       "url": "https://www.sealedair.com/id",
-      "desc": "#1 Indonesia jalur import resmi. Stok Jakarta & Surabaya. Supply Super Indo, Hypermart, Ranch Market, Lotte, AEON. BPOM food-grade, MOQ 5k.",
+      "desc": "#1 Indonesia jalur import resmi. Stok Jakarta & Surabaya. Supply Super Indo, Hypermart, Ranch Market, Lotte, AEON. BPOM food-grade.",
       "tags": [
         "indo-1",
-        "resmi",
-        "retail-modern"
+        "resmi"
       ],
       "source": "curated"
     },
@@ -673,16 +630,17 @@
       "type": "Airlaid + SAP Lokal",
       "absorb": "600-850ml/m²",
       "price": "Rp 120-220 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
       "share": "22.3%",
       "revenue": "Rp 93 Miliar/tahun",
       "volume": "~64 jt pcs/tahun",
       "citation": "Kapasitas pabrik 12jt/bulan + RPA CP/Japfa",
+      "citation_url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
       "url": "https://shopee.co.id/search?keyword=primapack%20soaker%20pad",
-      "desc": "#1 volume lokal, #1 total Indonesia. Pabrik Bekasi 12jt pcs/bulan. Supply RPA Charoen Pokphand, Japfa, Malindo. Harga 30% bawah import.",
+      "desc": "#1 volume lokal, #1 total Indonesia. Pabrik Bekasi 12jt pcs/bulan. Supply RPA Charoen Pokphand, Japfa, Malindo. 30% bawah import.",
       "tags": [
         "indo-1-volume",
-        "bekasi",
-        "RPA"
+        "bekasi"
       ],
       "source": "curated"
     },
@@ -694,16 +652,17 @@
       "type": "Tissue + SAP + PE",
       "absorb": "500-750ml/m²",
       "price": "Rp 95-180 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
       "share": "14.1%",
       "revenue": "Rp 59 Miliar/tahun",
       "volume": "~40 jt pcs/tahun",
-      "citation": "Marketplace data 10k+ terjual 2024-2025",
+      "citation": "Marketplace 10k+ terjual 2024-2025",
+      "citation_url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
       "url": "https://shopee.co.id/search?keyword=freshpad%20absorbent%20daging",
       "desc": "#3 Indonesia, #1 marketplace. Shopee/Tokopedia 4.9★ 10k+ terjual. Target UMKM, butcher, resto. Ecer 50pcs s/d grosir 5k.",
       "tags": [
         "indo-3",
-        "shopee-1",
-        "UMKM"
+        "shopee-1"
       ],
       "source": "curated"
     },
@@ -715,16 +674,17 @@
       "type": "Cellulose + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 110-200 /pcs",
+      "price_url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
       "share": "12.6%",
       "revenue": "Rp 53 Miliar/tahun",
       "volume": "~36 jt pcs/tahun",
       "citation": "Distribusi Jatim-Bali + Indomaret fresh",
+      "citation_url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
       "url": "https://www.tokopedia.com/search?st=product&q=DAP%20soaker%20pad",
-      "desc": "#4 Indonesia, #1 Jatim-Bali. Pabrik Surabaya. Dominan ayam potong & ikan segar. Supply Indomaret fresh, Super Indo Jatim. MOQ 2k.",
+      "desc": "#4 Indonesia, #1 Jatim-Bali. Pabrik Surabaya. Dominan ayam potong & ikan segar. Supply Indomaret fresh, Super Indo Jatim.",
       "tags": [
         "indo-4",
-        "surabaya",
-        "jatim"
+        "surabaya"
       ],
       "source": "curated"
     },
@@ -736,16 +696,17 @@
       "type": "Nonwoven + SAP",
       "absorb": "550-800ml/m²",
       "price": "Rp 115-210 /pcs",
+      "price_url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
       "share": "8.9%",
       "revenue": "Rp 37 Miliar/tahun",
       "volume": "~25 jt pcs/tahun",
       "citation": "Horeca + export Timor Leste 2024",
+      "citation_url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
       "url": "https://www.tokopedia.com/search?st=product&q=multi%20pad%20absorbent",
       "desc": "#5 Indonesia. Supply Horeca hotel (Ismaya, Boga Group) + export Timor Leste. Varian hitam daging sapi premium.",
       "tags": [
         "indo-5",
-        "tangerang",
-        "horeca"
+        "tangerang"
       ],
       "source": "curated"
     },
@@ -757,16 +718,17 @@
       "type": "Fluff + PE Lokal",
       "absorb": "400-600ml/m²",
       "price": "Rp 70-130 /pcs",
+      "price_url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
       "share": "6.4%",
       "revenue": "Rp 27 Miliar/tahun",
       "volume": "~18 jt pcs/tahun",
       "citation": "Pasar tradisional + Grosir Senen",
+      "citation_url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
       "url": "https://shopee.co.id/search?keyword=soaker%20pad%20lokal%20indoplasindo",
-      "desc": "#6 Indonesia. Fokus pasar tradisional, Grosir Senen, pedagang ayam potong. Tanpa SAP — harga murah Rp 70/pcs, MOQ 1k.",
+      "desc": "#6 Indonesia. Fokus pasar tradisional, Grosir Senen, pedagang ayam potong. Tanpa SAP — harga murah Rp 70/pcs.",
       "tags": [
         "indo-6",
-        "tradisional",
-        "murah"
+        "tradisional"
       ],
       "source": "curated"
     },
@@ -778,12 +740,14 @@
       "type": "Mixed Import",
       "absorb": "300-650ml/m²",
       "price": "Rp 50-120 /pcs",
+      "price_url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
       "share": "17.0%",
       "revenue": "Rp 71 Miliar/tahun",
       "volume": "~49 jt pcs/tahun",
       "citation": "BPS import China 2024 + Alibaba",
+      "citation_url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
       "url": "https://www.alibaba.com/showroom/meat-absorbent-pad.html",
-      "desc": "Gabungan import China (Qidong, Ideal Goal) + generic. Harga paling murah, kualitas variatif. Wajib COA & migration test sebelum bulk.",
+      "desc": "Gabungan import China (Qidong, Ideal Goal) + generic. Harga paling murah, kualitas variatif. Wajib COA & migration test.",
       "tags": [
         "import-china",
         "generic"
@@ -798,16 +762,17 @@
       "type": "SAP + Nonwoven + PE",
       "absorb": "600-950ml/m²",
       "price": "Rp 90-180 /pcs",
+      "price_url": "https://www.idealgoal.cn/meat-pad",
       "share": "2.1% global",
       "revenue": "USD 28 jt",
       "volume": "—",
       "citation": "Export China 2023",
+      "citation_url": "https://www.idealgoal.cn/meat-pad",
       "url": "https://www.idealgoal.cn/meat-pad",
-      "desc": "Challenger China terbesar. Harga 40-50% bawah leader, kapasitas setara. OEM untuk brand Eropa. MOQ 50k.",
+      "desc": "Challenger China terbesar. Harga 40-50% bawah leader, OEM untuk brand Eropa. MOQ 50k.",
       "tags": [
         "challenger",
-        "china",
-        "OEM"
+        "china"
       ],
       "source": "curated"
     },
@@ -819,74 +784,17 @@
       "type": "SAP Composite",
       "absorb": "550-900ml/m²",
       "price": "Rp 85-170 /pcs",
+      "price_url": "https://www.qidongpack.com/absorbent-pad",
       "share": "1.8% global",
       "revenue": "USD 24 jt",
       "volume": "—",
       "citation": "Export China 2023",
+      "citation_url": "https://www.qidongpack.com/absorbent-pad",
       "url": "https://www.qidongpack.com/absorbent-pad",
-      "desc": "Challenger China spesialis export. Sudah masuk Indonesia via importir Jakarta. Warna hitam/putih custom.",
+      "desc": "Challenger China spesialis export. Sudah masuk Indonesia via importir Jakarta.",
       "tags": [
         "challenger",
         "china"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "f6ff81137884",
-      "title": "Cellcomb Absorber Pad",
-      "provider": "Cellcomb (Sweden)",
-      "category": "Market Challenger",
-      "type": "Cellulose + SAP",
-      "absorb": "550-850ml/m²",
-      "price": "Rp 140-280 /pcs",
-      "share": "—",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://www.cellcomb.com/absorbent-pads",
-      "desc": "Challenger Skandinavia (sudah masuk top 8 global di atas). Di pasar global dia leader, di segmen harga dia challenger Sirane.",
-      "tags": [
-        "challenger"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "5c0f99fd839f",
-      "title": "Dewi Pack Soaker Lokal",
-      "provider": "PT Dewi Pack (Indonesia)",
-      "category": "Market Follower",
-      "type": "Tissue + SAP + PE",
-      "absorb": "400-600ml/m²",
-      "price": "Rp 75-140 /pcs",
-      "share": "<2% Indo",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://shopee.co.id/search?keyword=pad%20absorbent%20daging",
-      "desc": "Follower lokal. Produksi Bandung/Surabaya, tissue+SAP impor, PE lokal. Jual Shopee/Tokopedia MOQ 1k.",
-      "tags": [
-        "follower",
-        "lokal"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "d560570efb07",
-      "title": "Tristar Packaging Pad",
-      "provider": "Tristar (India)",
-      "category": "Market Follower",
-      "type": "Fluff + PE",
-      "absorb": "350-600ml/m²",
-      "price": "Rp 70-130 /pcs",
-      "share": "—",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://www.tristarpackaging.in/soaker-pads",
-      "desc": "Follower India. Fluff pulp lokal, fokus domestik India & Timur Tengah.",
-      "tags": [
-        "follower",
-        "india"
       ],
       "source": "curated"
     },
@@ -898,36 +806,17 @@
       "type": "Compostable Cellulose",
       "absorb": "400-650ml/m²",
       "price": "Rp 220-420 /pcs",
+      "price_url": "https://www.sirane.com/earth-packaging/",
       "share": "0.6% global",
       "revenue": "USD 8 jt",
       "volume": "—",
       "citation": "Sirane 2023",
+      "citation_url": "https://www.sirane.com/earth-packaging/",
       "url": "https://www.sirane.com/earth-packaging/",
-      "desc": "Nicher eco. 100% compostable EN13432. Target organic meat & zero-waste retailer. Premium 30-40%.",
+      "desc": "Nicher eco. 100% compostable EN13432. Target organic & zero-waste retailer. Premium 30-40%.",
       "tags": [
         "nicher",
-        "compostable",
-        "eco"
-      ],
-      "source": "curated"
-    },
-    {
-      "id": "55b7f7750305",
-      "title": "Sealed Air rDri-Loc Recycle-Ready",
-      "provider": "Sealed Air - rDriLoc",
-      "category": "Market Nicher",
-      "type": "Recyclable PE + SAP",
-      "absorb": "600-850ml/m²",
-      "price": "Rp 200-380 /pcs",
-      "share": "—",
-      "revenue": "—",
-      "volume": "—",
-      "citation": "—",
-      "url": "https://www.sealedair.com/products/food-packaging/recycle-ready-pads",
-      "desc": "Nicher recycle-ready. Masuk stream PE recycling, jawab demand ESG Aldi/Carrefour.",
-      "tags": [
-        "nicher",
-        "recyclable"
+        "compostable"
       ],
       "source": "curated"
     },
@@ -939,16 +828,17 @@
       "type": "Charcoal + SAP",
       "absorb": "400-600ml/m²",
       "price": "Rp 260-480 /pcs",
+      "price_url": "https://www.tomi-jp.com/odor-pad",
       "share": "—",
       "revenue": "—",
       "volume": "—",
-      "citation": "—",
+      "citation": "TOMI JP",
+      "citation_url": "https://www.tomi-jp.com/odor-pad",
       "url": "https://www.tomi-jp.com/odor-pad",
       "desc": "Nicher Jepang charcoal + activated carbon serap bau amis. Untuk sashimi & wagyu premium.",
       "tags": [
         "nicher",
-        "charcoal",
-        "japan"
+        "charcoal"
       ],
       "source": "curated"
     }
