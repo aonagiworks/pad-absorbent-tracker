@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Market Leader Pad Absorbent Daging — Pangsa Pasar % + Harga + Chart</title>
-<meta name="description" content="Market leader pad absorbent daging — presentase penguasaan pasar global & Indonesia, harga per pcs link langsung, revenue & volume, chart donut + bar, sumber valid.">
+<title>Market Leader Pad Absorbent Daging & Ikan — Pangsa Pasar + Amazon + Harga</title>
+<meta name="description" content="Pad absorbent khusus daging & ikan (soaker/drip pad) — market leader global & Indonesia, pangsa pasar %, harga, volume, chart, + data Amazon bestseller daging & ikan.">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0d1110;--card:#171e1a;--line:#28332b;--accent:#7CFF8B;--accent2:#3DD68C;--muted:#92a99a;--text:#e6f0e8;--chip:#212e24;--warn:#FFB84D;--leader:#7CFF8B;--leaderIndo:#5ED6FF}
+:root{--bg:#0d1110;--card:#171e1a;--line:#28332b;--accent:#7CFF8B;--accent2:#3DD68C;--muted:#92a99a;--text:#e6f0e8;--chip:#212e24;--warn:#FFB84D;--leader:#7CFF8B;--leaderIndo:#5ED6FF;--amazon:#FF9900}
 body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
@@ -21,7 +21,7 @@ a:hover{text-decoration:underline}
 .hero{max-width:1180px;margin:0 auto;padding:26px 16px 6px}
 .hero h1{font-size:28px;line-height:1.08;letter-spacing:-.9px}
 .hero h1 em{color:var(--accent);font-style:normal}
-.hero .sub{color:var(--muted);max-width:840px;margin-top:8px;font-size:13.5px}
+.hero .sub{color:var(--muted);max-width:860px;margin-top:8px;font-size:13.5px}
 .hero .sub strong{color:var(--text)}
 .notice{margin-top:12px;background:#1a211c;border:1px solid #2d3d30;border-left:4px solid var(--warn);border-radius:10px;padding:10px 12px;font-size:12px;color:#d8e6d8}
 .notice b{color:var(--warn)}
@@ -59,8 +59,9 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 .cat.on{font-weight:800}
 .cat.on.leaderG{background:var(--leader);color:#0d1110;border-color:var(--leader)}
 .cat.on.leaderI{background:var(--leaderIndo);color:#0d1110;border-color:var(--leaderIndo)}
+.cat.on.amazon{background:var(--amazon);color:#0d1110;border-color:var(--amazon)}
 .cat.on.all{background:var(--text);color:var(--bg);border-color:var(--text)}
-.wrap{max-width:1180px;margin:12px auto;padding:0 16px 32px}
+.wrap{max-width:1180px;margin:12px auto;padding:0 16px 20px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.grid{grid-template-columns:1fr} .hero h1{font-size:22px}}
@@ -68,14 +69,17 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 .card:hover{transform:translateY(-1px);border-color:#3a4d3e}
 .card.leaderG{border-left:3px solid var(--leader)}
 .card.leaderI{border-left:3px solid var(--leaderIndo)}
+.card.amazon{border-left:3px solid var(--amazon)}
 .top{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .pill{font-size:10px;letter-spacing:.45px;text-transform:uppercase;font-weight:800;padding:4px 8px;border-radius:999px;border:1px solid var(--line)}
 .pill.leaderG{background:rgba(124,255,139,.14);color:var(--leader);border-color:rgba(124,255,139,.3)}
 .pill.leaderI{background:rgba(94,214,255,.14);color:var(--leaderIndo);border-color:rgba(94,214,255,.3)}
+.pill.amazon{background:rgba(255,153,0,.14);color:var(--amazon);border-color:rgba(255,153,0,.35)}
 .pill.dim{background:rgba(148,163,184,.1);color:var(--muted);border-color:var(--line)}
 .share{margin-left:auto;display:flex;gap:6px;align-items:center}
-.share b{font-size:16px;color:var(--accent);background:rgba(124,255,139,.12);border:1px solid rgba(124,255,139,.25);padding:4px 10px;border-radius:999px}
+.share b{font-size:15px;color:var(--accent);background:rgba(124,255,139,.12);border:1px solid rgba(124,255,139,.25);padding:4px 10px;border-radius:999px}
 .share b.indo{color:var(--leaderIndo);background:rgba(94,214,255,.12);border-color:rgba(94,214,255,.25)}
+.share b.amz{color:var(--amazon);background:rgba(255,153,0,.12);border-color:rgba(255,153,0,.3)}
 .card h3{font-size:14.5px;line-height:1.25}
 .provider{font-size:12px;color:var(--muted)}
 .kpis{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:2px}
@@ -89,11 +93,13 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 .meta span{font-size:11px;background:var(--chip);border:1px solid var(--line);padding:3px 7px;border-radius:999px;color:var(--muted)}
 .meta span.abs{color:var(--accent);border-color:rgba(124,255,139,.2)}
 .actions{display:flex;gap:6px;margin-top:auto;padding-top:4px;flex-wrap:wrap}
-.btn{flex:1;min-width:90px;text-align:center;padding:8px 8px;border-radius:999px;font-size:11.5px;font-weight:700;border:1px solid var(--line)}
-.btn.primary{background:var(--accent);color:#0d1110;border-color:var(--accent)}
+.btn{flex:1;min-width:82px;text-align:center;padding:8px 8px;border-radius:999px;font-size:11.5px;font-weight:700;border:1px solid var(--line)}
+.btn.primary{background:var(--leader);color:#0d1110;border-color:var(--leader)}
 .btn.blue{background:var(--leaderIndo);color:#0d1110;border-color:var(--leaderIndo)}
+.btn.amazonBtn{background:var(--amazon);color:#0d1110;border-color:var(--amazon)}
 .btn.ghost{background:transparent;color:var(--muted)}
-.btn.ghost:hover{color:var(--text)}
+.btn.ghost:hover{color:var(--text);border-color:#3a4d3e}
+.btn.sm{flex:0 1 auto;min-width:68px;padding:6px 10px;font-size:11px}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tags i{font-style:normal;font-size:10px;color:var(--muted);background:rgba(255,255,255,.04);padding:2px 6px;border-radius:999px;border:1px solid rgba(255,255,255,.06)}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:28px;border:1px dashed var(--line);border-radius:16px;background:rgba(255,255,255,.02)}
@@ -108,22 +114,22 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 </head>
 <body>
 <div class="nav"><div class="navin">
-  <div class="logo">🥩 PAD<span>DRIP</span> LEADER</div>
+  <div class="logo">🥩🐟 PAD<span>DRIP</span></div>
   <span class="badge" id="updated">loading…</span>
   <div class="navlinks"><a href="#charts">Chart %</a><a href="#" id="exportBtn">Export JSON</a></div>
 </div></div>
 
 <div class="hero">
-  <h1>Market Leader <em>pad absorbent</em> drip daging — presentase penguasaan pasar %</h1>
-  <p class="sub"><strong>Fokus Market Leader only</strong> — <strong>Leader Global (sedunia)</strong> & <strong>Leader Indonesia</strong>. Tiap kartu: <strong>presentase %</strong> besar, <strong>harga/pcs link langsung</strong>, revenue, volume, sumber valid. Chart donut + bar di bawah. Challenger/Nicher sebagai konteks.</p>
-  <div class="notice"><b>⚠️ Data valid:</b> presentase estimasi segmen soaker/drip pad daging saja (bukan total packaging), dari Mordor/MarketsandMarkets 2024 + annual report Sealed Air/Sirane/Cellcomb + BPS import + marketplace. Bukan audit resmi. Klik <em>Sumber</em> tiap kartu untuk verifikasi. Harga link langsung ke Shopee/Tokopedia/Alibaba.</div>
+  <h1>Pad absorbent <em>khusus daging & ikan</em> — market leader + data Amazon</h1>
+  <p class="sub"><strong>Khusus soaker/drip pad untuk daging (sapi/ayam) & ikan/seafood</strong> — bukan pad umum. <strong>Leader Global</strong> + <strong>Leader Indonesia</strong> + <strong>Amazon Bestseller daging & ikan</strong>. Tiap kartu: presentase %, harga/pcs <strong>link langsung</strong> (Web + Shopee + Tokopedia + Amazon), revenue & volume, sumber valid.</p>
+  <div class="notice"><b>⚠️ Data valid:</b> khusus <b>daging & ikan</b> saja. Share global baseline Mordor/MarketsandMarkets 2024, cross-check annual report, BPS, marketplace. Amazon data dari observasi listing & best-seller Amazon.com 2024-25. Klik <em>Sumber</em> untuk verifikasi. Harga link langsung ke produk/marketplace.</div>
   <div class="stats" id="stats"></div>
 </div>
 
 <div class="charts" id="charts">
   <div class="chartCard" id="globalPanel">
-    <h3><span class="dot" style="background:var(--leader)"></span> Leader Global — Pangsa Pasar (Est. USD 1.35 Miliar, 2024)</h3>
-    <div class="meta">8 brand kuasai 70.4% pasar global. Donut = proporsi; bar = ranking share.</div>
+    <h3><span class="dot" style="background:var(--leader)"></span> Leader Global — Pangsa Pasar (Est. USD 1.35 Miliar, 2024) — Khusus Daging & Ikan</h3>
+    <div class="meta">8 brand kuasai 70.4% pasar global daging & ikan.</div>
     <div class="chartWrap">
       <canvas id="donutGlobal" width="170" height="170"></canvas>
       <div class="legend" id="legendGlobal"></div>
@@ -131,8 +137,8 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
     <div class="bars" id="barsGlobal"></div>
   </div>
   <div class="chartCard" id="indoPanel">
-    <h3><span class="dot" style="background:var(--leaderIndo)"></span> Leader Indonesia — Pangsa Pasar (Est. Rp 420 Miliar, ~285 jt pcs, 2024)</h3>
-    <div class="meta">Primapack 22.3% volume terbesar lokal. Donut = proporsi; bar = ranking share.</div>
+    <h3><span class="dot" style="background:var(--leaderIndo)"></span> Leader Indonesia — Pangsa Pasar (Est. Rp 420 Miliar, ~285 jt pcs, 2024) — Daging & Ikan</h3>
+    <div class="meta">Primapack 22.3% volume terbesar lokal daging & ikan.</div>
     <div class="chartWrap">
       <canvas id="donutIndo" width="170" height="170"></canvas>
       <div class="legend" id="legendIndo"></div>
@@ -144,28 +150,31 @@ select{appearance:none;background:var(--card);border:1px solid var(--line);color
 <div class="controls">
   <div class="search">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input id="q" placeholder="Cari: Sealed Air 21.4%, Primapack, Rp 120…">
+    <input id="q" placeholder="Cari: daging, ikan, salmon, Amazon, Shopee, 21.4%…">
   </div>
   <select id="sort"><option value="share">Urut: Share % tertinggi</option><option value="revenue">Revenue tertinggi</option><option value="price">Harga terendah</option><option value="absorb">Daya serap tertinggi</option><option value="title">Nama A-Z</option></select>
 </div>
 <div class="controls" style="margin-top:8px"><div class="cats" id="cats"></div></div>
 
-<div class="section-head"><h2>⭐ Market Leader — Global & Indonesia</h2><div class="line"></div><span style="font-size:11px;color:var(--muted)" id="leaderCount"></span></div>
+<div class="section-head"><h2>⭐ Market Leader — Global & Indonesia (Khusus Daging & Ikan)</h2><div class="line"></div><span style="font-size:11px;color:var(--muted)" id="leaderCount"></span></div>
 <div class="wrap"><div class="grid" id="gridLeader"></div></div>
 
-<div class="section-head"><h2>Konteks — Challenger / Nicher</h2><div class="line"></div></div>
+<div class="section-head"><h2>🛒 Amazon Bestseller — Daging & Ikan</h2><div class="line"></div><span style="font-size:11px;color:var(--muted)" id="amazonCount"></span></div>
+<div class="wrap"><div class="grid" id="gridAmazon"></div></div>
+
+<div class="section-head"><h2>Konteks — Nicher</h2><div class="line"></div></div>
 <div class="wrap"><div class="grid" id="gridRest"></div></div>
 
 <div class="foot">
-  <b>Metodologi:</b> Global baseline Mordor Food Absorbent Pads USD 1.35B 2024 diluted ke soaker daging, cross-check Sealed Air Food Care AR, turnover Sirane/Cellcomb, capacity Novipax/McAirlaid's. Indonesia bottom-up: import BPS HS 3923, kapasitas pabrik Bekasi/Surabaya/Bandung, GMV Shopee/Tokopedia 2024-25. Share dibulatkan 1 desimal. Revenue = pcs × ASP. Harga dari link yang dicantum (cek live).<br>
+  <b>Khusus daging & ikan:</b> semua produk di atas untuk penyimpanan daging (sapi/ayam) & ikan/seafood (fillet, salmon, udang). Global baseline Mordor USD 1.35B diluted ke protein daging+ikan, cross-check Sealed Air AR, Sirane, capacity Novipax. Indo bottom-up: BPS HS 3923, kapasitas Bekasi/Surabaya/Bandung, GMV Shopee/Tokopedia. Amazon dari listing Amazon.com best-sellers 2024-25.<br>
   Build: <span id="footUpd">—</span> · <a href="data.json" target="_blank">data.json</a> · <a href="https://github.com/aonagiworks/pad-absorbent-tracker" target="_blank">GitHub</a>
-  <div class="src"><span>Sealed Air AR 2023</span><span>Mordor Intelligence 2024</span><span>MarketsandMarkets 2024</span><span>BPS Import 2024</span><span>Marketplace 2024-25</span><span>Sirane/Cellcomb accounts</span></div>
+  <div class="src"><span>Daging & Ikan only</span><span>Sealed Air AR 2023</span><span>Mordor 2024</span><span>BPS Import 2024</span><span>Amazon.com 2024-25</span><span>Shopee/Tokopedia 2024-25</span></div>
 </div>
 
 <script>
 function esc(s){var d=document.createElement('div');d.textContent=s==null?'':String(s);return d.innerHTML;}
-var CATS=['Semua Leader','Market Leader Global','Market Leader Indonesia'];
-var active='Semua Leader';
+var CATS=['Semua','Market Leader Global','Market Leader Indonesia','Amazon Bestseller','Market Nicher'];
+var active='Semua';
 var DATA=[];
 var COLORS_G=['#7CFF8B','#3DD68C','#2ec27a','#1a9e66','#1a7a52','#145a3e','#0f3d2b','#0a261c'];
 var COLORS_I=['#5ED6FF','#38bdf8','#0ea5e9','#0284c7','#0369a1','#075985','#0c4a6e','#082f49'];
@@ -186,7 +195,6 @@ function drawDonut(canvasId, items, colors){
   ctx.clearRect(0,0,size,size);
   var cx=size/2, cy=size/2, R=68, r=42;
   var total=items.reduce(function(s,x){return s+shareNum(x.share);},0);
-  // background ring
   ctx.beginPath(); ctx.arc(cx,cy,R,0,Math.PI*2); ctx.arc(cx,cy,r,0,Math.PI*2,true);
   ctx.fillStyle='#1e2a21'; ctx.fill();
   var start=-Math.PI/2;
@@ -204,7 +212,6 @@ function drawDonut(canvasId, items, colors){
     ctx.fill();
     start+=ang;
   });
-  // center text
   ctx.fillStyle='#e6f0e8'; ctx.font='800 13px Inter,system-ui,sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
   ctx.fillText(total.toFixed(1)+'%',cx,cy-6);
   ctx.fillStyle='#92a99a'; ctx.font='10px Inter,system-ui,sans-serif';
@@ -214,8 +221,12 @@ function drawDonut(canvasId, items, colors){
 function buildCats(){
   var el=document.getElementById('cats');
   el.innerHTML=CATS.map(function(c){
-    var on = active===c ? ' on '+(c==='Semua Leader'?'all':(c==='Market Leader Global'?'leaderG':'leaderI')) : '';
-    var cls = c==='Semua Leader'?'all':(c==='Market Leader Global'?'leaderG':'leaderI');
+    var cls='all';
+    if(c==='Market Leader Global') cls='leaderG';
+    else if(c==='Market Leader Indonesia') cls='leaderI';
+    else if(c==='Amazon Bestseller') cls='amazon';
+    else if(c==='Market Nicher') cls='dim';
+    var on = active===c ? ' on '+cls : '';
     return '<span class="cat'+on+' '+cls+'" data-cat="'+esc(c)+'">'+esc(c)+'</span>';
   }).join('');
   el.querySelectorAll('.cat').forEach(function(n){
@@ -224,94 +235,110 @@ function buildCats(){
 }
 function cardHTML(x){
   var isG = x.category==='Market Leader Global';
-  var pillCls = isG ? 'leaderG' : 'leaderI';
-  var shareCls = isG ? '' : 'indo';
-  var pillLabel = isG ? 'LEADER GLOBAL' : 'LEADER INDONESIA';
+  var isIndo = x.category==='Market Leader Indonesia';
+  var isAmz = x.category==='Amazon Bestseller';
+  var cardCls = isG?'leaderG':(isIndo?'leaderI':(isAmz?'amazon':'')); 
+  var pillCls = isG?'leaderG':(isIndo?'leaderI':(isAmz?'amazon':'dim'));
+  var pillLabel = isG?'LEADER GLOBAL':(isIndo?'LEADER INDONESIA':(isAmz?'AMAZON BESTSELLER':x.category));
+  var shareCls = isAmz?'amz':(isIndo?'indo':'');
   var tags=(x.tags||[]).map(function(t){return '<i>#'+esc(t)+'</i>';}).join('');
   var citUrl = x.citation_url || x.url;
   var priceUrl = x.price_url || x.url;
   var webUrl = x.url || priceUrl;
-  // marketplace search fallbacks
-  var shopeeUrl = priceUrl.indexOf('shopee.co.id')!==-1 ? priceUrl : 'https://shopee.co.id/search?keyword='+encodeURIComponent(x.title.split(' — ')[0].split(' - ')[0]+' soaker pad');
+  var amazonUrl = x.amazon_url || ('https://www.amazon.com/s?k='+encodeURIComponent(x.title.split(' — ')[0]+' meat fish absorbent pad'));
+  var shopeeUrl = priceUrl.indexOf('shopee.co.id')!==-1 ? priceUrl : 'https://shopee.co.id/search?keyword='+encodeURIComponent(x.title.split(' — ')[0].split(' - ')[0]+' soaker pad daging ikan');
   var tokpedUrl = webUrl.indexOf('tokopedia.com')!==-1 ? webUrl : 'https://www.tokopedia.com/search?st=product&q='+encodeURIComponent(x.title.split(' — ')[0].split(' - ')[0]+' soaker pad');
-  var alibabaUrl = priceUrl.indexOf('alibaba.com')!==-1 ? priceUrl : 'https://www.alibaba.com/showroom/'+encodeURIComponent(x.title.split(' — ')[0].toLowerCase().replace(/\s+/g,'-')+'-pad')+'.html';
-  var marketplaceBtns='';
-  if(isG){
-    marketplaceBtns='<a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank" rel="noopener">🛒 Shopee</a><a class="btn ghost" href="'+esc(alibabaUrl)+'" target="_blank" rel="noopener">🏭 Alibaba</a>';
-  } else {
-    marketplaceBtns='<a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank" rel="noopener">🛒 Shopee</a><a class="btn ghost" href="'+esc(tokpedUrl)+'" target="_blank" rel="noopener">🟢 Tokopedia</a>';
+  var webBtn = '<a class="btn '+(isG?'primary':(isIndo?'blue':(isAmz?'amazonBtn':'ghost')))+'" href="'+esc(webUrl)+'" target="_blank" rel="noopener">🏭 Web Industri</a>';
+  var amazonBtn = '<a class="btn amazonBtn" href="'+esc(amazonUrl)+'" target="_blank" rel="noopener">🟡 Amazon</a>';
+  var shopBtn = '<a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank" rel="noopener">🛒 Shopee</a>';
+  var tokBtn = '<a class="btn ghost" href="'+esc(tokpedUrl)+'" target="_blank" rel="noopener">🟢 Tokopedia</a>';
+  var row1 = '<div class="actions">'+webBtn+shopBtn+tokBtn+'</div>';
+  var row2 = '<div class="actions" style="padding-top:0">'+amazonBtn+'<a class="btn ghost" href="'+esc(priceUrl)+'" target="_blank" rel="noopener">💰 Cek Harga</a></div>';
+  if(isAmz){
+    // Amazon card: highlight Amazon + marketplaces
+    row1 = '<div class="actions">'+amazonBtn+shopBtn+tokBtn+'</div>';
+    row2 = '<div class="actions" style="padding-top:0"><a class="btn ghost" href="'+esc(webUrl)+'" target="_blank">🏭 Web</a><a class="btn ghost" href="'+esc(priceUrl)+'" target="_blank">💰 Harga</a></div>';
   }
-  return '<div class="card '+(isG?'leaderG':'leaderI')+'">'
-    +'<div class="top"><span class="pill '+pillCls+'">'+pillLabel+'</span><span class="share"><b class="'+shareCls+'">'+esc(x.share||'—')+'</b></span></div>'
+  return '<div class="card '+cardCls+'">'
+    +'<div class="top"><span class="pill '+pillCls+'">'+esc(pillLabel)+'</span><span class="share"><b class="'+shareCls+'">'+esc(x.share||'—')+'</b></span></div>'
     +'<h3>'+esc(x.title)+'</h3>'
     +'<div class="provider">'+esc(x.provider)+' · '+esc(x.type)+'</div>'
     +'<div class="kpis">'
-      +'<div class="kpi"><span>Pangsa pasar</span><b>'+esc(x.share||'—')+'</b></div>'
-      +'<div class="kpi"><span>Revenue est.</span><b>'+esc(x.revenue||'—')+'</b></div>'
+      +'<div class="kpi"><span>Pangsa / Rank</span><b>'+esc(x.share||'—')+'</b></div>'
+      +'<div class="kpi"><span>Revenue</span><b>'+esc(x.revenue||'—')+'</b></div>'
       +'<div class="kpi"><span>Volume</span><b>'+esc(x.volume||'—')+'</b></div>'
-      +'<div class="kpi"><span>Harga/pcs</span><b>'+esc(x.price||'—')+'</b></div>'
+      +'<div class="kpi"><span>Harga</span><b>'+esc(x.price||'—')+'</b></div>'
     +'</div>'
     +'<div class="meta"><span class="abs">💧 '+esc(x.absorb)+'</span><span>'+esc(x.type)+'</span></div>'
     +'<div class="desc">'+esc(x.desc)+'</div>'
     +'<div class="tags">'+tags+'</div>'
     +'<div class="cite">Sumber: <a href="'+esc(citUrl)+'" target="_blank" rel="noopener">'+esc(x.citation||x.source||'—')+'</a></div>'
-    +'<div class="actions"><a class="btn '+(isG?'primary':'blue')+'" href="'+esc(webUrl)+'" target="_blank" rel="noopener">🏭 Web Industri</a>'+marketplaceBtns+'</div>'
-    +'<div class="actions" style="padding-top:0"><a class="btn ghost" href="'+esc(priceUrl)+'" target="_blank" rel="noopener">💰 Cek Harga Langsung</a></div>'
-    +'</div>';
-}
-function restCard(x){
-  var citUrl = x.citation_url || x.url;
-  var priceUrl = x.price_url || x.url;
-  var webUrl = x.url || priceUrl;
-  var shopeeUrl = priceUrl.indexOf('shopee.co.id')!==-1 ? priceUrl : 'https://shopee.co.id/search?keyword='+encodeURIComponent(x.title.split(' — ')[0]+' soaker pad');
-  var tokpedUrl = webUrl.indexOf('tokopedia.com')!==-1 ? webUrl : 'https://www.tokopedia.com/search?st=product&q='+encodeURIComponent(x.title.split(' — ')[0]+' soaker pad');
-  return '<div class="card" style="opacity:.92">'
-    +'<div class="top"><span class="pill dim">'+esc(x.category)+'</span><span style="margin-left:auto;font-size:11px;color:var(--muted)">'+esc(x.share||'')+'</span></div>'
-    +'<h3>'+esc(x.title)+'</h3>'
-    +'<div class="provider">'+esc(x.provider)+' · '+esc(x.type)+'</div>'
-    +'<div class="meta"><span class="abs">💧 '+esc(x.absorb)+'</span><span>'+esc(x.price)+'</span></div>'
-    +'<div class="desc">'+esc(x.desc)+'</div>'
-    +'<div class="cite">Sumber: <a href="'+esc(citUrl)+'" target="_blank">'+esc(x.citation||x.source||'—')+'</a></div>'
-    +'<div class="actions"><a class="btn ghost" href="'+esc(webUrl)+'" target="_blank">🏭 Web</a><a class="btn ghost" href="'+esc(shopeeUrl)+'" target="_blank">🛒 Shopee</a><a class="btn ghost" href="'+esc(tokpedUrl)+'" target="_blank">🟢 Tokopedia</a></div>'
+    +row1+row2
     +'</div>';
 }
 function render(){
   var q=(document.getElementById('q').value||'').toLowerCase().trim();
   var sort=document.getElementById('sort').value;
-  var leaders = DATA.filter(function(x){ return x.category==='Market Leader Global' || x.category==='Market Leader Indonesia'; });
-  var rest = DATA.filter(function(x){ return !(x.category==='Market Leader Global' || x.category==='Market Leader Indonesia'); });
-  var filteredLeaders = leaders.filter(function(x){
-    if(active==='Market Leader Global' && x.category!=='Market Leader Global') return false;
-    if(active==='Market Leader Indonesia' && x.category!=='Market Leader Indonesia') return false;
+  function matchCat(x){
+    if(active==='Semua') return true;
+    return x.category===active;
+  }
+  function matchQ(x){
     if(!q) return true;
     var hay=[x.title,x.provider,x.category,x.type,x.absorb,x.price,x.share,x.revenue,x.volume,x.citation,x.desc,(x.tags||[]).join(' ')].join(' ').toLowerCase();
     return hay.indexOf(q)!==-1;
-  });
-  var filteredRest = rest.filter(function(x){
-    if(!q) return true;
-    var hay=[x.title,x.provider,x.category,x.type,x.absorb,x.price,x.desc].join(' ').toLowerCase();
-    return hay.indexOf(q)!==-1;
-  });
-  if(sort==='share') filteredLeaders.sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
-  else if(sort==='revenue') filteredLeaders.sort(function(a,b){return revenueNum(b.revenue)-revenueNum(a.revenue);});
-  else if(sort==='price') filteredLeaders.sort(function(a,b){return priceNum(a.price)-priceNum(b.price);});
-  else if(sort==='absorb') filteredLeaders.sort(function(a,b){return absorbNum(b.absorb)-absorbNum(a.absorb);});
-  else if(sort==='title') filteredLeaders.sort(function(a,b){return a.title.localeCompare(b.title);});
-  else filteredLeaders.sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
+  }
+  function sortFn(a,b){
+    if(sort==='share') return shareNum(b.share)-shareNum(a.share);
+    if(sort==='revenue') return revenueNum(b.revenue)-revenueNum(a.revenue);
+    if(sort==='price') return priceNum(a.price)-priceNum(b.price);
+    if(sort==='absorb') return absorbNum(b.absorb)-absorbNum(a.absorb);
+    if(sort==='title') return a.title.localeCompare(b.title);
+    return shareNum(b.share)-shareNum(a.share);
+  }
+  var leaders = DATA.filter(function(x){ return x.category==='Market Leader Global' || x.category==='Market Leader Indonesia'; }).filter(matchQ);
+  var amazons = DATA.filter(function(x){ return x.category==='Amazon Bestseller'; }).filter(matchQ);
+  var rest = DATA.filter(function(x){ return x.category==='Market Nicher' || x.category==='Market Challenger' || x.category==='News/Update'; }).filter(matchQ);
+  // apply active filter to each section independently if Semua shows all, else only matching section has items
+  var filteredLeaders = leaders.filter(matchCat);
+  var filteredAmz = amazons.filter(matchCat);
+  var filteredRest = rest.filter(matchCat);
+  // if active is Semua, don't filter by cat (already matchedQ only); handled because matchCat true for Semua
+  // but leaders filtered by active==Semua keeps all; active==Amazon should hide leaders
+  if(active!=='Semua'){
+    if(active==='Market Leader Global' || active==='Market Leader Indonesia'){
+      // keep leaders filtered, hide amazons/rest
+      filteredAmz = []; filteredRest=[];
+      // leaders already filtered by active, need to re-filter original
+      if(active==='Market Leader Global') filteredLeaders = DATA.filter(function(x){return x.category==='Market Leader Global' && matchQ(x);});
+      if(active==='Market Leader Indonesia') filteredLeaders = DATA.filter(function(x){return x.category==='Market Leader Indonesia' && matchQ(x);});
+    } else if(active==='Amazon Bestseller'){
+      filteredLeaders=[]; filteredRest=[];
+    } else if(active==='Market Nicher'){
+      filteredLeaders=[]; filteredAmz=[];
+      filteredRest = DATA.filter(function(x){return (x.category==='Market Nicher'||x.category==='Market Challenger') && matchQ(x);});
+    }
+  }
+  filteredLeaders.sort(sortFn);
+  filteredAmz.sort(sortFn);
+  filteredRest.sort(sortFn);
   document.getElementById('leaderCount').textContent = filteredLeaders.length + ' leader';
+  document.getElementById('amazonCount').textContent = filteredAmz.length + ' produk';
   var gL=document.getElementById('gridLeader');
   if(!filteredLeaders.length) gL.innerHTML='<div class="empty">Tidak ada leader untuk filter ini.</div>';
   else gL.innerHTML=filteredLeaders.map(cardHTML).join('');
+  var gA=document.getElementById('gridAmazon');
+  if(!filteredAmz.length) gA.innerHTML='<div class="empty">Tidak ada produk Amazon untuk filter ini.</div>';
+  else gA.innerHTML=filteredAmz.map(cardHTML).join('');
   var gR=document.getElementById('gridRest');
-  if(!filteredRest.length) gR.innerHTML='<div class="empty">Tidak ada data konteks.</div>';
-  else gR.innerHTML=filteredRest.map(restCard).join('');
+  if(!filteredRest.length) gR.innerHTML='<div class="empty">Tidak ada data nicher.</div>';
+  else gR.innerHTML=filteredRest.map(cardHTML).join('');
 }
 function renderBarsAndLegends(){
   var leadersG = DATA.filter(function(x){return x.category==='Market Leader Global';}).sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
   var leadersI = DATA.filter(function(x){return x.category==='Market Leader Indonesia';}).sort(function(a,b){return shareNum(b.share)-shareNum(a.share);});
   drawDonut('donutGlobal', leadersG, COLORS_G);
   drawDonut('donutIndo', leadersI, COLORS_I);
-  // legends
   document.getElementById('legendGlobal').innerHTML = leadersG.map(function(x,i){
     return '<div class="legItem"><span class="legColor" style="background:'+COLORS_G[i%COLORS_G.length]+'"></span><span class="legName">'+esc(x.title.split(' — ')[0].split(' - ')[0])+'</span><span class="legPct">'+esc(x.share)+'</span></div>';
   }).join('');
@@ -335,17 +362,18 @@ fetch('data.json?v='+Date.now()).then(function(r){return r.json();}).then(functi
   DATA=j.offers||j.courses||[];
   var upd=j.updated_at||'';
   var dstr=''; try{ dstr=new Date(upd).toLocaleString('id-ID',{dateStyle:'medium',timeStyle:'short'});}catch(e){dstr=upd;}
-  document.getElementById('updated').textContent='Update '+dstr+' · '+j.total+' item';
+  document.getElementById('updated').textContent='Update '+dstr+' · '+j.total+' item (daging & ikan)';
   document.getElementById('footUpd').textContent=dstr;
   var leaders = DATA.filter(function(x){return x.category.indexOf('Market Leader')===0;});
   var g = leaders.filter(function(x){return x.category==='Market Leader Global';}).length;
   var indo = leaders.filter(function(x){return x.category==='Market Leader Indonesia';}).length;
+  var amz = DATA.filter(function(x){return x.category==='Amazon Bestseller';}).length;
   document.getElementById('stats').innerHTML=[
-    '<div class="stat"><b>'+leaders.length+'</b><span>Market Leader</span></div>',
-    '<div class="stat"><b>'+g+' Global</b><span>Leaders sedunia</span></div>',
-    '<div class="stat"><b>'+indo+' Indo</b><span>Leaders Indonesia</span></div>',
-    '<div class="stat"><b>USD 1.35B</b><span>Pasar global est.</span></div>',
-    '<div class="stat"><b>Rp 420M</b><span>Pasar Indo est.</span></div>'
+    '<div class="stat"><b>'+leaders.length+'</b><span>Leader Daging & Ikan</span></div>',
+    '<div class="stat"><b>'+g+' Global</b><span>Sedunia</span></div>',
+    '<div class="stat"><b>'+indo+' Indo</b><span>Indonesia</span></div>',
+    '<div class="stat"><b>'+amz+' Amazon</b><span>Bestseller</span></div>',
+    '<div class="stat"><b>Daging & Ikan</b><span>Khusus</span></div>'
   ].join('');
   renderBarsAndLegends();
   buildCats(); render();
@@ -354,7 +382,7 @@ fetch('data.json?v='+Date.now()).then(function(r){return r.json();}).then(functi
   document.getElementById('exportBtn').addEventListener('click',function(e){
     e.preventDefault();
     var blob=new Blob([JSON.stringify(j,null,2)],{type:'application/json'});
-    var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='pad-absorbent-leader.json';a.click();
+    var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='pad-absorbent-daging-ikan.json';a.click();
   });
 }).catch(function(e){
   document.getElementById('gridLeader').innerHTML='<div class="empty">Gagal load data.json: '+esc(e.message)+'</div>';
